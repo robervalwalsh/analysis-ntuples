@@ -1,0 +1,7 @@
+Running crab status first to fetch necessary information.
+ERROR: KeyError: '197'
+
+	Please email hn-cms-computing-tools@cern.ch for support with the crab.log file or crab.log URL.
+	Client Version: 3.3.1904
+	The log file /afs/desy.de/user/w/walsh/cms/analysis/cmssw/ntuplizer/2017/v4/CMSSW_9_4_12/src/Analysis/Ntuplizer/test/crab_projects_ZeroBias_Run2017_31Mar2018/crab_ZeroBias_Run2017E-31Mar2018-v1/crab.log has been uploaded automatically to the CRAB cache.
+	Please email the following URL 'https://cmsweb.cern.ch/crabcache/logfile?name=2019-05-27_085027_crab.log&username=rwalsh' to hn-cms-computing-tools@cern.ch if you need help from Analysis Operations.
