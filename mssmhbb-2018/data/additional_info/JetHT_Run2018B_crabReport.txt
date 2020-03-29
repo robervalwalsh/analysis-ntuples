@@ -1,5 +1,5 @@
 Running crab status first to fetch necessary information.
-Will save lumi files into output directory /afs/desy.de/user/w/walsh/cms/analysis/cmssw/ntuplizer/2018/v2/CMSSW_10_2_14/src/Analysis/Ntuplizer/test/crab_projects_JetHT_17Sep2018_DONE_20190503/crab_JetHT_Run2018B-17Sep2018-v1/results
+Will save lumi files into output directory /afs/desy.de/user/w/walsh/cms/analysis/cmssw/ntuplizer/2018/v2/CMSSW_10_2_14/src/Analysis/Ntuplizer/test/crab_projects_JetHT_17Sep2018/crab_JetHT_Run2018B-17Sep2018-v1/results
 Summary from jobs in status 'finished':
   Number of files processed: 1448
   Number of events read: 78255208
@@ -10,4 +10,4 @@ Summary from jobs in status 'finished':
 Additional report lumi files:
   Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
   Lumis to process written to lumisToProcess.json
-Log file is /afs/desy.de/user/w/walsh/cms/analysis/cmssw/ntuplizer/2018/v2/CMSSW_10_2_14/src/Analysis/Ntuplizer/test/crab_projects_JetHT_17Sep2018_DONE_20190503/crab_JetHT_Run2018B-17Sep2018-v1/crab.log
+Log file is /afs/desy.de/user/w/walsh/cms/analysis/cmssw/ntuplizer/2018/v2/CMSSW_10_2_14/src/Analysis/Ntuplizer/test/crab_projects_JetHT_17Sep2018/crab_JetHT_Run2018B-17Sep2018-v1/crab.log
