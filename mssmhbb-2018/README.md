@@ -8,6 +8,7 @@
    * [QCD-bEnriched](#qcd-benriched)
    * [QCD-BGenFilter](#qcd-bgenfilter)
    * [QCD-MuEnrichedPt5](#qcd-muenrichedpt5)
+   * [QCD](#qcd)
 
 ## DATA
 
@@ -84,5 +85,19 @@
 | [QCD-MuEnrichedPt5_Pt-800to1000_ext3_rootFileList.txt](mc/QCD-MuEnrichedPt5_Pt-800to1000_ext3_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-MuEnrichedPt5_Pt-800to1000_ext3_crabReport.txt) <br /> |  | 
 | [QCD-MuEnrichedPt5_Pt-80to120_ext1_rootFileList.txt](mc/QCD-MuEnrichedPt5_Pt-80to120_ext1_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-MuEnrichedPt5_Pt-80to120_ext1_crabReport.txt) <br /> |  | 
 | [QCD-MuEnrichedPt5_Pt-80to120_rootFileList.txt](mc/QCD-MuEnrichedPt5_Pt-80to120_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-MuEnrichedPt5_Pt-80to120_crabReport.txt) <br /> |  | 
+
+### QCD
+
+| rootFileList | Adidtional Info | Comments|
+| --------     | --------        | -------- |
+| [QCD_HT1000to1500_rootFileList.txt](mc/QCD_HT1000to1500_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD_HT1000to1500_crabReport.txt) <br /> |  | 
+| [QCD_HT100to200_rootFileList.txt](mc/QCD_HT100to200_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD_HT100to200_crabReport.txt) <br /> |  | 
+| [QCD_HT1500to2000_rootFileList.txt](mc/QCD_HT1500to2000_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD_HT1500to2000_crabReport.txt) <br /> |  | 
+| [QCD_HT2000toInf_rootFileList.txt](mc/QCD_HT2000toInf_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD_HT2000toInf_crabReport.txt) <br /> |  | 
+| [QCD_HT200to300_rootFileList.txt](mc/QCD_HT200to300_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD_HT200to300_crabReport.txt) <br /> |  | 
+| [QCD_HT300to500_rootFileList.txt](mc/QCD_HT300to500_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD_HT300to500_crabReport.txt) <br /> |  | 
+| [QCD_HT500to700_rootFileList.txt](mc/QCD_HT500to700_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD_HT500to700_crabReport.txt) <br /> |  | 
+| [QCD_HT50to100_rootFileList.txt](mc/QCD_HT50to100_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD_HT50to100_crabReport.txt) <br /> |  | 
+| [QCD_HT700to1000_rootFileList.txt](mc/QCD_HT700to1000_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD_HT700to1000_crabReport.txt) <br /> |  | 
 
 
