@@ -9,9 +9,9 @@ git checkout <analysis-specific-branch>
 ```
 where the available **<analysis-specific-branch>** branches are:
 
-| analysis      | branch name  | remarks                                                                     |
-| ------------- | ------------ | --------------------------------------------------------------------------- |
-| MSSM Hbb 2018 | mssmhbb-2018 | [link](https://github.com/robervalwalsh/analysis-ntuples/tree/mssmhbb-2018) |
+| analysis      | branch name  | remarks                                                                                  |
+| ------------- | ------------ | ---------------------------------------------------------------------------------------- |
+| MSSM Hbb 2018 | mssmhbb-2018 | [link](https://github.com/robervalwalsh/analysis-ntuples/tree/mssmhbb-2018/mssmhbb-2018) |
 
 
 In the **analysis-specific-branch** directory tree there is a README.md
