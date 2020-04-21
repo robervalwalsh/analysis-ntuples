@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # Ntuples Lists for the MSSM Hbb 2018 analyses v2
 
 * [Configuration](#configuration)
