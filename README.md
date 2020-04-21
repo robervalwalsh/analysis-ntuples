@@ -11,3 +11,7 @@ In the **analysis-specific** directory tree there is a README.md
 with information about the available datasets and two directories,
 namely *data* and *mc*, inside which one can find the rootFileList.txt
 files for each dataset plus additional info about the ntuple production.
+
+## Recommended ntuples for MSSM Hbb analyses
+
+* For 2018 MSSM Hbb analysis: [mssmhbb-2018-v3](mssmhbb-2018-v3)
