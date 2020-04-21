@@ -1,5 +1,6 @@
-# Ntuples Lists for the MSSM Hbb analyses
+# Ntuples Lists for the MSSM Hbb 2018 analyses v2
 
+* [Configuration](#configuration)
 * [DATA](#data)
    * [DoubleMuon](#doublemuon)
    * [JetHT](#jetht)
@@ -9,6 +10,14 @@
    * [QCD-BGenFilter](#qcd-bgenfilter)
    * [QCD-MuEnrichedPt5](#qcd-muenrichedpt5)
    * [QCD](#qcd)
+
+
+## Configuration
+
+Ntuples list for the 2018 v2 ntuple production.
+See configurations:
+* [data](https://github.com/desy-cms/analysis-ntuplizer/blob/mssmhbb-2018-v2/test/ntuplizer_102X_2018_rereco17Sep2018-v2.py)
+* [mc](https://github.com/desy-cms/analysis-ntuplizer/blob/mssmhbb-2018-v2/test/ntuplizer_102X_mc_2018_autumn18-v2.py)
 
 ## DATA
 
