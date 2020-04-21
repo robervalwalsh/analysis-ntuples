@@ -1,0 +1,13 @@
+Running crab status first to fetch necessary information.
+Will save lumi files into output directory /afs/desy.de/user/w/walsh/cms/ntuplizer/2018/cmssw/v3/CMSSW_10_2_22/src/Analysis/Ntuplizer/test/crab_projects_QCD_Pythia8_MuEnriched_Autumn18/crab_QCD_Pt-50to80_Mu_TuneCP5_13TeV_pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v3/results
+Summary from jobs in status 'finished':
+  Number of files processed: 338
+  Number of events read: 20268872
+  Number of events written in EDM files: 0
+  Number of events written in TFileService files: 0
+  Number of events written in other type of files: 0
+  Processed lumis written to processedLumis.json
+Additional report lumi files:
+  Input dataset lumis (from DBS, at task submission time) written to inputDatasetLumis.json
+  Lumis to process written to lumisToProcess.json
+Log file is /afs/desy.de/user/w/walsh/cms/ntuplizer/2018/cmssw/v3/CMSSW_10_2_22/src/Analysis/Ntuplizer/test/crab_projects_QCD_Pythia8_MuEnriched_Autumn18/crab_QCD_Pt-50to80_Mu_TuneCP5_13TeV_pythia8_RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v3/crab.log
