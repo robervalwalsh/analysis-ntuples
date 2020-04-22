@@ -16,10 +16,26 @@
 
 ## Configuration
 
-Ntuples list for the 2018 v3 ntuple production.
-See configurations:
-* [data](https://github.com/desy-cms/analysis-ntuplizer/blob/94X_2017_rereco31Mar18_fall17-v4/test/ntuplizer_92X_data_2017-v4.py)
-* [mc](https://github.com/desy-cms/analysis-ntuplizer/blob/94X_2017_rereco31Mar18_fall17-v4/test/ntuplizer_94X_mc_2017_fall17-v4.py)
+* Ntuplizer release: [94X_2017_rereco31Mar18_fall17-v4](https://github.com/desy-cms/analysis-ntuplizer/tree/94X_2017_rereco31Mar18_fall17-v4)
+* See also configurations:
+   * [data](https://github.com/desy-cms/analysis-ntuplizer/blob/94X_2017_rereco31Mar18_fall17-v4/test/ntuplizer_92X_data_2017-v4.py)
+   * [mc](https://github.com/desy-cms/analysis-ntuplizer/blob/94X_2017_rereco31Mar18_fall17-v4/test/ntuplizer_94X_mc_2017_fall17-v4.py)
+
+* b-jet energy regression (from nanoAOD) ([Installation](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookNanoAOD?rev=43))
+* DeepFlavour b-tag: ([Installation](https://twiki.cern.ch/twiki/bin/view/CMS/DeepJet?rev=18))
+
+* CMSSW Release: CMSSW_9_4_12
+* GlobalTag:
+   * Data: 94X_dataRun2_v11
+   * Monte Carlo: 94X_mc2017_realistic_v17
+* JEC reapplied!!! (see [Recommended jet energy corrections and uncertainties](https://twiki.cern.ch/twiki/bin/view/CMS/JECDataMC?rev=145))
+
+* Filters:
+   * Primary vertex filter: <literal>cut = cms.string("!isFake && ndof > 4 && abs(z) <= 24 && position.Rho <= 2")</literal>
+   * Data-only:
+      * JSON: **NO** lumi mask used.
+      * Trigger filters - **OR** of several triggers (see [MssmHbbTriggerResultsFilter_cfi.py](https://github.com/desy-cms/analysis-ntuplizer/blob/94X_2017_rereco31Mar18_fall17-v4/python/run2017/v4/MssmHbbTriggerResultsFilter_cfi.py))
+
 
 
 ## DATA
