@@ -6,7 +6,6 @@
    * [JetHT](#jetht)
    * [SingleMuon](#singlemuon)
 * [MC](#mc)
-   * [.](#.)
    * [QCD-bEnriched](#qcd-benriched)
    * [QCD-BGenFilter](#qcd-bgenfilter)
    * [QCD-MuEnrichedPt5](#qcd-muenrichedpt5)
@@ -53,24 +52,6 @@
 
 
 ## MC
-
-### .
-
-| rootFileList | Adidtional Info | Comments|
-| --------     | --------        | -------- |
-| [._QCD-bEnriched_HT1000to1500_rootFileList.txt](mc/._QCD-bEnriched_HT1000to1500_rootFileList.txt) |  |  | 
-| [._QCD-bEnriched_rootFileList.txt](mc/._QCD-bEnriched_rootFileList.txt) |  |  | 
-| [._QCD-bEnriched_HT1500to2000_rootFileList.txt](mc/._QCD-bEnriched_HT1500to2000_rootFileList.txt) |  |  | 
-| [._QCD-bEnriched_HT2000toInf_rootFileList.txt](mc/._QCD-bEnriched_HT2000toInf_rootFileList.txt) |  |  | 
-| [._QCD-bEnriched_HT200to300_rootFileList.txt](mc/._QCD-bEnriched_HT200to300_rootFileList.txt) |  |  | 
-| [._QCD-bEnriched_HT300to500_rootFileList.txt](mc/._QCD-bEnriched_HT300to500_rootFileList.txt) |  |  | 
-| [._QCD-bEnriched_HT500to700_rootFileList.txt](mc/._QCD-bEnriched_HT500to700_rootFileList.txt) |  |  | 
-| [._QCD-bEnriched_HT700to1000_rootFileList.txt](mc/._QCD-bEnriched_HT700to1000_rootFileList.txt) |  |  | 
-| [._QCD-BGenFilter_rootFileList.txt](mc/._QCD-BGenFilter_rootFileList.txt) |  |  | 
-| [._QCD-MuEnrichedPt5_rootFileList.txt](mc/._QCD-MuEnrichedPt5_rootFileList.txt) |  |  | 
-| [._QCD_rootFileList.txt](mc/._QCD_rootFileList.txt) |  |  | 
-| [._QCD_HT100to200_rootFileList.txt](mc/._QCD_HT100to200_rootFileList.txt) |  |  | 
-| [._SUSYGluGluToBBHToBB_rootFileList.txt](mc/._SUSYGluGluToBBHToBB_rootFileList.txt) |  |  | 
 
 ### QCD-bEnriched
 
