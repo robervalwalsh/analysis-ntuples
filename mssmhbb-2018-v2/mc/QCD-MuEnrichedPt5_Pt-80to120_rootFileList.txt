@@ -1,3 +1,0 @@
-/pnfs/desy.de/cms/tier2/store/user/rwalsh/Analysis/Ntuples/MC/Autumn18/ntuplizer_102X_mc_2018_autumn18-v2/QCD_Pt-80to120_MuEnrichedPt5_TuneCP5_13TeV_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/200323_130046/0000/ntuple_1.root
-/pnfs/desy.de/cms/tier2/store/user/rwalsh/Analysis/Ntuples/MC/Autumn18/ntuplizer_102X_mc_2018_autumn18-v2/QCD_Pt-80to120_MuEnrichedPt5_TuneCP5_13TeV_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/200323_130046/0000/ntuple_2.root
-/pnfs/desy.de/cms/tier2/store/user/rwalsh/Analysis/Ntuples/MC/Autumn18/ntuplizer_102X_mc_2018_autumn18-v2/QCD_Pt-80to120_MuEnrichedPt5_TuneCP5_13TeV_pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/200323_130046/0000/ntuple_3.root
