@@ -1,2 +1,0 @@
-The server answered with an error.
-It seems the CMSWEB frontend is not responding. Please check: https://twiki.cern.ch/twiki/bin/viewauth/CMS/ScheduledInterventions?sortcol=3;table=1;up=2#sorted_table
