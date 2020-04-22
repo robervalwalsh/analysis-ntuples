@@ -15,3 +15,4 @@ files for each dataset plus additional info about the ntuple production.
 ## Recommended ntuples for MSSM Hbb analyses
 
 * For 2018 MSSM Hbb analysis: [mssmhbb-2018-v3](mssmhbb-2018-v3)
+* For 2017 MSSM Hbb analysis: [mssmhbb-2017-v4](mssmhbb-2017-v4)
