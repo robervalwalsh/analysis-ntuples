@@ -1,5 +1,6 @@
 # Ntuples Lists for the MSSM Hbb analyses
 
+* [Configuration](#configuration)
 * [DATA](#data)
    * [BTagCSV](#btagcsv)
    * [DoubleMuon](#doublemuon)
@@ -11,6 +12,15 @@
    * [QCD-MuEnrichedPt5](#qcd-muenrichedpt5)
    * [QCD](#qcd)
    * [SUSYGluGluToBBHToBB](#susygluglutobbhtobb)
+
+
+## Configuration
+
+Ntuples list for the 2018 v3 ntuple production.
+See configurations:
+* [data](https://github.com/desy-cms/analysis-ntuplizer/blob/94X_2017_rereco31Mar18_fall17-v4/test/ntuplizer_92X_data_2017-v4.py)
+* [mc](https://github.com/desy-cms/analysis-ntuplizer/blob/94X_2017_rereco31Mar18_fall17-v4/test/ntuplizer_94X_mc_2017_fall17-v4.py)
+
 
 ## DATA
 
