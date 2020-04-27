@@ -3,7 +3,7 @@ Repository for the lists of ntuples used in the analyses.
 
 Clone this repository in your working area
 ```bash
-git clone https://github.com/robervalwalsh/analysis-ntuples.git
+git clone https://github.com/desy-cms/analysis-ntuples.git
 cd analysis-ntuples
 ```
 
