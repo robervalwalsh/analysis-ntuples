@@ -1,16 +1,15 @@
 # Ntuples Lists for the MSSM Hbb analyses
 
-* [Configuration](#configuration)
 * [DATA](#data)
    * [DoubleMuon](#doublemuon)
    * [JetHT](#jetht)
    * [SingleMuon](#singlemuon)
 * [MC](#mc)
+   * [QCD-bEnriched](#qcd-benriched)
+   * [QCD-BGenFilter](#qcd-bgenfilter)
    * [QCD-MuEnrichedPt5](#qcd-muenrichedpt5)
    * [QCD](#qcd)
    * [SUSYGluGluToBBHToBB](#susygluglutobbhtobb)
-
-
 
 ## Configuration
 
@@ -52,6 +51,32 @@ See configurations:
 
 
 ## MC
+
+### QCD-bEnriched
+
+| rootFileList | Adidtional Info | Comments|
+| --------     | --------        | -------- |
+| [QCD-bEnriched_HT1000to1500_rootFileList.txt](mc/QCD-bEnriched_HT1000to1500_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT1000to1500_crabReport.txt) <br /> |  | 
+| [QCD-bEnriched_HT100to200_rootFileList.txt](mc/QCD-bEnriched_HT100to200_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT100to200_crabReport.txt) <br /> |  | 
+| [QCD-bEnriched_HT1500to2000_rootFileList.txt](mc/QCD-bEnriched_HT1500to2000_rootFileList.txt) |  |  | 
+| [QCD-bEnriched_HT2000toInf_rootFileList.txt](mc/QCD-bEnriched_HT2000toInf_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT2000toInf_crabReport.txt) <br /> |  | 
+| [QCD-bEnriched_HT200to300_rootFileList.txt](mc/QCD-bEnriched_HT200to300_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT200to300_crabReport.txt) <br /> |  | 
+| [QCD-bEnriched_HT300to500_rootFileList.txt](mc/QCD-bEnriched_HT300to500_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT300to500_crabReport.txt) <br /> |  | 
+| [QCD-bEnriched_HT500to700_rootFileList.txt](mc/QCD-bEnriched_HT500to700_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT500to700_crabReport.txt) <br /> |  | 
+| [QCD-bEnriched_HT700to1000_rootFileList.txt](mc/QCD-bEnriched_HT700to1000_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT700to1000_crabReport.txt) <br /> |  | 
+
+### QCD-BGenFilter
+
+| rootFileList | Adidtional Info | Comments|
+| --------     | --------        | -------- |
+| [QCD-BGenFilter_HT1000to1500_rootFileList.txt](mc/QCD-BGenFilter_HT1000to1500_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-BGenFilter_HT1000to1500_crabReport.txt) <br /> |  | 
+| [QCD-BGenFilter_HT100to200_rootFileList.txt](mc/QCD-BGenFilter_HT100to200_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-BGenFilter_HT100to200_crabReport.txt) <br /> |  | 
+| [QCD-BGenFilter_HT1500to2000_rootFileList.txt](mc/QCD-BGenFilter_HT1500to2000_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-BGenFilter_HT1500to2000_crabReport.txt) <br /> |  | 
+| [QCD-BGenFilter_HT2000toInf_rootFileList.txt](mc/QCD-BGenFilter_HT2000toInf_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-BGenFilter_HT2000toInf_crabReport.txt) <br /> |  | 
+| [QCD-BGenFilter_HT200to300_rootFileList.txt](mc/QCD-BGenFilter_HT200to300_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-BGenFilter_HT200to300_crabReport.txt) <br /> |  | 
+| [QCD-BGenFilter_HT300to500_rootFileList.txt](mc/QCD-BGenFilter_HT300to500_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-BGenFilter_HT300to500_crabReport.txt) <br /> |  | 
+| [QCD-BGenFilter_HT500to700_rootFileList.txt](mc/QCD-BGenFilter_HT500to700_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-BGenFilter_HT500to700_crabReport.txt) <br /> |  | 
+| [QCD-BGenFilter_HT700to1000_rootFileList.txt](mc/QCD-BGenFilter_HT700to1000_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-BGenFilter_HT700to1000_crabReport.txt) <br /> |  | 
 
 ### QCD-MuEnrichedPt5
 
