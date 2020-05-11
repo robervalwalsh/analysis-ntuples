@@ -58,7 +58,7 @@ See configurations:
 | --------     | --------        | -------- |
 | [QCD-bEnriched_HT1000to1500_rootFileList.txt](mc/QCD-bEnriched_HT1000to1500_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT1000to1500_crabReport.txt) <br /> |  | 
 | [QCD-bEnriched_HT100to200_rootFileList.txt](mc/QCD-bEnriched_HT100to200_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT100to200_crabReport.txt) <br /> |  | 
-| [QCD-bEnriched_HT1500to2000_rootFileList.txt](mc/QCD-bEnriched_HT1500to2000_rootFileList.txt) |  |  | 
+| [QCD-bEnriched_HT1500to2000_rootFileList.txt](mc/QCD-bEnriched_HT1500to2000_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT1500to2000_crabReport.txt) <br /> |  | 
 | [QCD-bEnriched_HT2000toInf_rootFileList.txt](mc/QCD-bEnriched_HT2000toInf_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT2000toInf_crabReport.txt) <br /> |  | 
 | [QCD-bEnriched_HT200to300_rootFileList.txt](mc/QCD-bEnriched_HT200to300_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT200to300_crabReport.txt) <br /> |  | 
 | [QCD-bEnriched_HT300to500_rootFileList.txt](mc/QCD-bEnriched_HT300to500_rootFileList.txt) |  [crabReport.txt](mc/additional_info/QCD-bEnriched_HT300to500_crabReport.txt) <br /> |  | 
