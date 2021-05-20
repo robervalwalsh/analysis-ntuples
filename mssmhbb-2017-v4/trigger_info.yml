@@ -1,4 +1,8 @@
 
+#--------------------------------------------------------
+# Trigger information for 2017 ntuples v4
+#--------------------------------------------------------
+
 HLT_AK8PFJet320_v:
  l1seeds:
  - L1_SingleJet170
@@ -558,4 +562,6 @@ HLT_ZeroBias_v:
  - L1_ZeroBias
  trigger_objects:
  - hltL1sZeroBias
+
+#--------------------------------------------------------
 
