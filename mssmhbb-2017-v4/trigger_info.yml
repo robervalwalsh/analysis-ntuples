@@ -429,23 +429,6 @@ HLT_Mu8_v:
  - hltL1fL1sMu5L1Filtered0
  - hltL3fL1sMu5L1f0L2f5L3Filtered8
 
-HLT_PFHT300PT30_QuadPFJet_75_60_45_40_TriplePFBTagCSV_3p0_v:
- l1seeds:
- - ???
- trigger_objects:
- - hltL1sQuadJetC50to60IorHTT280to500IorHTT250to340QuadJet
- - hltQuadCentralJet30
- - hltCaloQuadJet30HT300
- - hltBTagCaloCSVp05Double
- - hltPFCentralJetLooseIDQuad30
- - hlt1PFCentralJetLooseID75
- - hlt2PFCentralJetLooseID60
- - hlt3PFCentralJetLooseID45
- - hlt4PFCentralJetLooseID40
- - hltPFCentralJetsLooseIDQuad30HT300
- - hltPFJetForBtagSelector
- - hltBTagPFCSVp070Triple
-
 HLT_PFJet140_v:
  l1seeds:
  - hltL1sSingleJet90
@@ -548,7 +531,7 @@ HLT_PFJet80_v:
 
 HLT_SingleJet30_Mu12_SinglePFJet40_v:
  l1seeds:
- - 
+ - L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4
  trigger_objects:
  - hltL1sMu3JetC16dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet16L1Filtered0
