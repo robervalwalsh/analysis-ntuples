@@ -1,15 +1,13 @@
 # Datasets for RunII Legacy  (v5)
 ---
 BTagCSV_UL2017:
-#   /BTagCSV/Run2017B-UL2017_MiniAODv2-v1/MINIAOD:
    /BTagCSV/Run2017C-UL2017_MiniAODv2-v1/MINIAOD:
-#   /BTagCSV/Run2017D-UL2017_MiniAODv2-v1/MINIAOD:
-#   /BTagCSV/Run2017E-UL2017_MiniAODv2-v1/MINIAOD:
-#   /BTagCSV/Run2017F-UL2017_MiniAODv2-v1/MINIAOD:
+   /BTagCSV/Run2017D-UL2017_MiniAODv2-v1/MINIAOD:
+   /BTagCSV/Run2017E-UL2017_MiniAODv2-v1/MINIAOD:
+   /BTagCSV/Run2017F-UL2017_MiniAODv2-v1/MINIAOD:
 
 # -------------------------
 JetHT_UL2017:
-   /JetHT/Run2017B-UL2017_MiniAODv2-v1/MINIAOD:
    /JetHT/Run2017C-UL2017_MiniAODv2-v1/MINIAOD:
    /JetHT/Run2017D-UL2017_MiniAODv2-v1/MINIAOD:
    /JetHT/Run2017E-UL2017_MiniAODv2-v1/MINIAOD:
@@ -17,7 +15,6 @@ JetHT_UL2017:
 
 # -------------------------
 SingleMuon_UL2017:
-   /SingleMuon/Run2017B-UL2017_MiniAODv2-v1/MINIAOD:
    /SingleMuon/Run2017C-UL2017_MiniAODv2-v1/MINIAOD:
    /SingleMuon/Run2017D-UL2017_MiniAODv2-v1/MINIAOD:
    /SingleMuon/Run2017E-UL2017_MiniAODv2-v1/MINIAOD:
@@ -25,7 +22,6 @@ SingleMuon_UL2017:
 
 # -------------------------
 DoubleMuon_UL2017:
-   /DoubleMuon/Run2017B-UL2017_MiniAODv2-v1/MINIAOD:
    /DoubleMuon/Run2017C-UL2017_MiniAODv2-v1/MINIAOD:
    /DoubleMuon/Run2017D-UL2017_MiniAODv2-v1/MINIAOD:
    /DoubleMuon/Run2017E-UL2017_MiniAODv2-v1/MINIAOD:
