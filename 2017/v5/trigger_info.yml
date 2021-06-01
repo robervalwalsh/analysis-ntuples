@@ -1,8 +1,6 @@
-
 #--------------------------------------------------------
-# Trigger information for 2017 ntuples v4
+# Trigger information for 2017 ntuples v5
 #--------------------------------------------------------
-
 
 HLT_DoublePFJets100MaxDeta1p6_DoubleCaloBTagCSV_p33_v:
  l1seeds:
