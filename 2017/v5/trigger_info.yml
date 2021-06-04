@@ -1,5 +1,19 @@
-#--------------------------------------------------------
+#===========================================================
 # Trigger information for 2017 ntuples v5
+#===========================================================
+
+# N.B.: L1 trigger objects containing jets and muons are
+#       split into an object containing the L1 jets and
+#       another object containing the L1 muons. Both  
+#       objects with the same name of the original object
+#       collection but with suffixes _l1jet and l1muon 
+#       respectively.
+#       e.g. the object
+#       hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+#       is split into
+#       - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6_l1jet
+#       - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6_l1muon
+
 #--------------------------------------------------------
 
 HLT_DoublePFJets100MaxDeta1p6_DoubleCaloBTagCSV_p33_v:
