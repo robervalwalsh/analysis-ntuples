@@ -21,3 +21,5 @@ files for each dataset plus additional info about the ntuple production.
 
 * RunII re-reco 2018 analysis: [2018/v3](2018/v3)
 * RunII re-reco 2017 analysis: [2017/v4](2017/v4)
+
+:warning: the versioning labels mssmhbb-2017-v4 and mssmhbb-2018-v3 are deprecated and will be removed in the future
