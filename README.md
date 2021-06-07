@@ -1,6 +1,7 @@
 # analysis-ntuples
 Repository for the lists of ntuples and information contained therein used in the analyses.
 
+## Usage
 Clone this repository in your working area
 (usually in your Analysis/Tools or Analysis/Ntuplizer projects)
 
