@@ -1,6 +1,11 @@
 /store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-1.root
+/store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-10.root
 /store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-2.root
+/store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-3.root
+/store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-4.root
 /store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-5.root
+/store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-6.root
+/store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-7.root
 /store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-8.root
 /store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1-9.root
 /store/user/rwalsh/Analysis/Ntuples/DATA/Run2017-v5/ntuplizer_106X_run2legacy_v5/BTagCSV/Run2017C-UL2017_MiniAODv2-v1/210607_100245/0000/ntuple_1.root
