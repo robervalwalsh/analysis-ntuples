@@ -14,257 +14,186 @@
 #       - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6_l1jet
 #       - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6_l1muon
 #
-# N.B. 2: extracted from different menu versions, there could be duplicates,
-#         which should be harmless, but beware of partial similarities
-#         of paths with the same name; duplicates are removed for the 
-#         ntuplizer
+#       Extracted from different menu versions, there
+#       could be duplicated paths with slightly 
+#       different configurations -> all available
+#       configurations are taken into account
+#
+#       Duplicate entries are removed when used with
+#       the ntuplizer
 #
 #
 #--------------------------------------------------------
 
+# Menu version: /frozen/2018/2e34/v3.6/HLT/V2
 
-# Menu version: /dev/CMSSW_10_1_0/GRun/V1
-
-HLT_DiPFJetAve140_v11:
+HLT_DoublePFJets100_CaloBTagDeepCSV_p71_v2:
  l1seeds:
- - L1_SingleJet90
- trigger_objects:
- - hltL1sSingleJet90
- - hltDiCaloJetAve110
- - hltDiPFJetAve140
-
-HLT_DiPFJetAve200_v11:
- l1seeds:
- - L1_SingleJet120
- trigger_objects:
- - hltL1sSingleJet120
- - hltDiCaloJetAve170
- - hltDiPFJetAve200
-
-HLT_DiPFJetAve260_v12:
- l1seeds:
- - L1_SingleJet170
- - L1_SingleJet180
- - L1_SingleJet200
- trigger_objects:
- - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve210
- - hltDiPFJetAve260
-
-HLT_DiPFJetAve320_v12:
- l1seeds:
- - L1_SingleJet170
- - L1_SingleJet180
- - L1_SingleJet200
- trigger_objects:
- - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve270
- - hltDiPFJetAve320
-
-HLT_DiPFJetAve400_v12:
- l1seeds:
- - L1_SingleJet170
- - L1_SingleJet180
- - L1_SingleJet200
- trigger_objects:
- - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve350
- - hltDiPFJetAve400
-
-HLT_DiPFJetAve40_v12:
- l1seeds:
- - L1_ZeroBias
- trigger_objects:
- - hltL1sZeroBias
- - hltDiCaloJetAve30
- - hltDiPFJetAve40
-
-HLT_DiPFJetAve500_v12:
- l1seeds:
- - L1_SingleJet170
- - L1_SingleJet180
- - L1_SingleJet200
- trigger_objects:
- - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve450
- - hltDiPFJetAve500
-
-HLT_DiPFJetAve60_v12:
- l1seeds:
- - L1_ZeroBias
- trigger_objects:
- - hltL1sZeroBias
- - hltDiCaloJetAve45
- - hltDiPFJetAve60
-
-HLT_DiPFJetAve80_v11:
- l1seeds:
- - L1_SingleJet60
- trigger_objects:
- - hltL1sSingleJet60
- - hltDiCaloJetAve60
- - hltDiPFJetAve80
-
-HLT_DoublePFJets100_CaloBTagCSV_p79_v1:
- l1seeds:
- - L1_DoubleJet100er2p7
+ - L1_DoubleJet100er2p5
  trigger_objects:
  - hltL1DoubleJet100er3p0
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCalo80x6CSVp79SingleWithMatching
+ - hltBTagCaloDeepCSV0p71Single6Jets80
  - hltDoublePFJets100Eta2p3
 
-HLT_DoublePFJets116MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
+HLT_DoublePFJets116MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
  l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
  - L1_DoubleJet112er2p3_dEta_Max1p6
+ - L1_DoubleJet150er2p5
  trigger_objects:
  - hltL1DoubleJet112er2p3dEtaMax1p6
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCalo80x6CSVp79DoubleWithMatching
+ - hltBTagCaloDeepCSV0p71Double6Jets80
  - hltDoublePFJets116Eta2p3
  - hltDoublePFJets116Eta2p3MaxDeta1p6
 
-HLT_DoublePFJets128MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
+HLT_DoublePFJets128MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
  l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
  - L1_DoubleJet112er2p3_dEta_Max1p6
+ - L1_DoubleJet150er2p5
  trigger_objects:
  - hltL1DoubleJet112er2p3dEtaMax1p6
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCalo80x6CSVp79DoubleWithMatching
+ - hltBTagCaloDeepCSV0p71Double6Jets80
  - hltDoublePFJets128Eta2p3
  - hltDoublePFJets128Eta2p3MaxDeta1p6
 
-HLT_DoublePFJets200_CaloBTagCSV_p79_v1:
+HLT_DoublePFJets200_CaloBTagDeepCSV_p71_v2:
  l1seeds:
- - L1_DoubleJet120er2p7
+ - L1_DoubleJet120er2p5
  trigger_objects:
  - hltL1DoubleJet120er3p0
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCalo80x6CSVp79SingleWithMatching
+ - hltBTagCaloDeepCSV0p71Single6Jets80
  - hltDoublePFJets200Eta2p3
 
-HLT_DoublePFJets350_CaloBTagCSV_p79_v1:
+HLT_DoublePFJets350_CaloBTagDeepCSV_p71_v2:
  l1seeds:
- - L1_DoubleJet120er2p7
+ - L1_DoubleJet120er2p5
  trigger_objects:
  - hltL1DoubleJet120er3p0
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCalo80x6CSVp79SingleWithMatching
+ - hltBTagCaloDeepCSV0p71Single6Jets80
  - hltDoublePFJets350Eta2p3
 
-HLT_DoublePFJets40_CaloBTagCSV_p79_v1:
+HLT_DoublePFJets40_CaloBTagDeepCSV_p71_v2:
  l1seeds:
- - L1_DoubleJet40er2p7
+ - L1_DoubleJet40er2p5
  trigger_objects:
  - hltL1DoubleJet40er3p0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCalo30x8CSVp79SingleWithMatching
+ - hltBTagCaloDeepCSV0p71Single8Jets30
  - hltDoublePFJets40Eta2p3
 
-HLT_Mu12_DoublePFJets100_CaloBTagCSV_p79_v1:
+HLT_Mu12_DoublePFJets100_CaloBTagDeepCSV_p71_v2:
  l1seeds:
- - L1_Mu3_Jet60er2p7_dEta_Max0p4_dPhi_Max0p4
+ - L1_Mu3_Jet60er2p5_dR_Max0p4
  trigger_objects:
  - hltL1sMu3JetC60dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet60L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCalo30x8CSVp79SingleWithMatching
+ - hltBTagCaloDeepCSV0p71Single8Jets30
  - hltL3fL1sMu3Jet60L1f0L2f8L3Filtered12
  - hltDoublePFBJets100Eta2p3
  - hltBSoftMuonDiJet100Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets200_CaloBTagCSV_p79_v1:
+HLT_Mu12_DoublePFJets200_CaloBTagDeepCSV_p71_v2:
  l1seeds:
- - L1_Mu3_Jet120er2p7_dEta_Max0p4_dPhi_Max0p4
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
  trigger_objects:
  - hltL1sMu3JetC120dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet120L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCalo30x8CSVp79SingleWithMatching
+ - hltBTagCaloDeepCSV0p71Single8Jets30
  - hltL3fL1sMu3Jet120L1f0L2f8L3Filtered12
  - hltDoublePFBJets200Eta2p3
  - hltBSoftMuonDiJet200Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets350_CaloBTagCSV_p79_v1:
+HLT_Mu12_DoublePFJets350_CaloBTagDeepCSV_p71_v2:
  l1seeds:
- - L1_Mu3_Jet120er2p7_dEta_Max0p4_dPhi_Max0p4
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
  trigger_objects:
  - hltL1sMu3JetC120dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet120L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCalo30x8CSVp79SingleWithMatching
+ - hltBTagCaloDeepCSV0p71Single8Jets30
  - hltL3fL1sMu3Jet120L1f0L2f8L3Filtered12
  - hltDoublePFBJets350Eta2p3
  - hltBSoftMuonDiJet350Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets40MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
+HLT_Mu12_DoublePFJets40MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
  l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
  - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
  trigger_objects:
  - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
  - hltL1fL1sMu12Dijet40L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCalo30x8CSVp0p87DoubleWithMatching
+ - hltBTagCaloDeepCSV0p71Double8Jets30
  - hltL3fL1sMu12Dijet40L1f0L2f8L3Filtered12
  - hltDoublePFBJets40Eta2p3
  - hltDoublePFJets40Eta2p3MaxDeta1p6
  - hltBSoftMuonDiJet40Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets40_CaloBTagCSV_p79_v1:
+HLT_Mu12_DoublePFJets40_CaloBTagDeepCSV_p71_v2:
  l1seeds:
- - L1_Mu3_Jet16er2p7_dEta_Max0p4_dPhi_Max0p4
+ - L1_Mu3_Jet16er2p5_dR_Max0p4
  trigger_objects:
  - hltL1sMu3JetC16dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet16L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCalo30x8CSVp79SingleWithMatching
+ - hltBTagCaloDeepCSV0p71Single8Jets30
  - hltL3fL1sMu3Jet16L1f0L2f8L3Filtered12
  - hltDoublePFBJets40Eta2p3
  - hltBSoftMuonDiJet40Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets54MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
+HLT_Mu12_DoublePFJets54MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
  l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
  - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
  trigger_objects:
  - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
  - hltL1fL1sMu12Dijet40L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCalo30x8CSVp0p87DoubleWithMatching
+ - hltBTagCaloDeepCSV0p71Double8Jets30
  - hltL3fL1sMu12Dijet40L1f0L2f8L3Filtered12
  - hltDoublePFBJets54Eta2p3
  - hltDoublePFJets54Eta2p3MaxDeta1p6
  - hltBSoftMuonDiJet54Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets62MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
+HLT_Mu12_DoublePFJets62MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
  l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
  - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
  trigger_objects:
  - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
  - hltL1fL1sMu12Dijet40L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCalo30x8CSVp0p87DoubleWithMatching
+ - hltBTagCaloDeepCSV0p71Double8Jets30
  - hltL3fL1sMu12Dijet40L1f0L2f8L3Filtered12
  - hltDoublePFBJets62Eta2p3
  - hltDoublePFJets62Eta2p3MaxDeta1p6
  - hltBSoftMuonDiJet62Mu12L3FilterByDR
 
-HLT_Mu17_v11:
+HLT_Mu17_v13:
  l1seeds:
- - L1_SingleMu10_LowQ
+ - L1_SingleMu15_DQ
  trigger_objects:
- - hltL1sSingleMu10LowQ
- - hltL1fL1sMu10lqL1Filtered0
- - hltL3fL1sMu10lqL1f0L2f10L3Filtered17
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered17
 
-HLT_Mu19_v2:
+HLT_Mu19_v4:
  l1seeds:
- - L1_SingleMu10_LowQ
+ - L1_SingleMu15_DQ
  trigger_objects:
- - hltL1sSingleMu10LowQ
- - hltL1fL1sMu10lqL1Filtered0
- - hltL3fL1sMu10lqL1f0L2f10L3Filtered19
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered19
 
-HLT_Mu20_v11:
+HLT_Mu20_v12:
  l1seeds:
  - L1_SingleMu18
  trigger_objects:
@@ -272,7 +201,7 @@ HLT_Mu20_v11:
  - hltL1fL1sMu18L1Filtered0
  - hltL3fL1sMu18L1f0L2f10QL3Filtered20Q
 
-HLT_Mu27_v12:
+HLT_Mu27_v13:
  l1seeds:
  - L1_SingleMu22
  - L1_SingleMu25
@@ -281,7 +210,7 @@ HLT_Mu27_v12:
  - hltL1fL1sMu22or25L1Filtered0
  - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered27Q
 
-HLT_Mu3_PFJet40_v14:
+HLT_Mu3_PFJet40_v16:
  l1seeds:
  - L1_SingleJet35
  trigger_objects:
@@ -291,7 +220,7 @@ HLT_Mu3_PFJet40_v14:
  - hltL3fL1sMu3L1f0L2f0L3Filtered3
  - hltMu3PFJet40MuCleaned
 
-HLT_Mu50_v12:
+HLT_Mu50_v13:
  l1seeds:
  - L1_SingleMu22
  - L1_SingleMu25
@@ -300,7 +229,7 @@ HLT_Mu50_v12:
  - hltL1fL1sMu22or25L1Filtered0
  - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered50Q
 
-HLT_Mu55_v2:
+HLT_Mu55_v3:
  l1seeds:
  - L1_SingleMu22
  - L1_SingleMu25
@@ -309,7 +238,7 @@ HLT_Mu55_v2:
  - hltL1fL1sMu22or25L1Filtered0
  - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered55Q
 
-HLT_Mu8_v11:
+HLT_Mu8_v12:
  l1seeds:
  - L1_SingleMu3
  - L1_SingleMu5
@@ -319,7 +248,7 @@ HLT_Mu8_v11:
  - hltL1fL1sMu3or5or7L1Filtered0
  - hltL3fL1sMu5L1f0L2f5L3Filtered8
 
-HLT_PFJet140_v17:
+HLT_PFJet140_v19:
  l1seeds:
  - L1_SingleJet90
  trigger_objects:
@@ -327,7 +256,7 @@ HLT_PFJet140_v17:
  - hltSingleCaloJet110
  - hltSinglePFJet140
 
-HLT_PFJet200_v17:
+HLT_PFJet200_v19:
  l1seeds:
  - L1_SingleJet120
  trigger_objects:
@@ -335,9 +264,9 @@ HLT_PFJet200_v17:
  - hltSingleCaloJet170
  - hltSinglePFJet200
 
-HLT_PFJet260_v18:
+HLT_PFJet260_v20:
  l1seeds:
- - L1_SingleJet170
+ - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -345,9 +274,9 @@ HLT_PFJet260_v18:
  - hltSingleCaloJet210
  - hltSinglePFJet260
 
-HLT_PFJet320_v18:
+HLT_PFJet320_v20:
  l1seeds:
- - L1_SingleJet170
+ - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -355,9 +284,9 @@ HLT_PFJet320_v18:
  - hltSingleCaloJet270
  - hltSinglePFJet320
 
-HLT_PFJet400_v18:
+HLT_PFJet400_v20:
  l1seeds:
- - L1_SingleJet170
+ - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -365,7 +294,7 @@ HLT_PFJet400_v18:
  - hltSingleCaloJet350
  - hltSinglePFJet400
 
-HLT_PFJet40_v19:
+HLT_PFJet40_v21:
  l1seeds:
  - L1_ZeroBias
  trigger_objects:
@@ -373,9 +302,9 @@ HLT_PFJet40_v19:
  - hltSingleCaloJet10
  - hltSinglePFJet40
 
-HLT_PFJet450_v19:
+HLT_PFJet450_v21:
  l1seeds:
- - L1_SingleJet170
+ - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -383,9 +312,9 @@ HLT_PFJet450_v19:
  - hltSingleCaloJet400
  - hltSinglePFJet450
 
-HLT_PFJet500_v19:
+HLT_PFJet500_v21:
  l1seeds:
- - L1_SingleJet170
+ - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -393,9 +322,9 @@ HLT_PFJet500_v19:
  - hltSingleCaloJet450
  - hltSinglePFJet500
 
-HLT_PFJet550_v9:
+HLT_PFJet550_v11:
  l1seeds:
- - L1_SingleJet170
+ - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -403,7 +332,7 @@ HLT_PFJet550_v9:
  - hltSingleCaloJet450
  - hltSinglePFJet550
 
-HLT_PFJet60_v19:
+HLT_PFJet60_v21:
  l1seeds:
  - L1_SingleJet35
  trigger_objects:
@@ -411,7 +340,7 @@ HLT_PFJet60_v19:
  - hltSingleCaloJet40
  - hltSinglePFJet60
 
-HLT_PFJet80_v18:
+HLT_PFJet80_v20:
  l1seeds:
  - L1_SingleJet60
  trigger_objects:
@@ -419,9 +348,9 @@ HLT_PFJet80_v18:
  - hltSingleCaloJet50
  - hltSinglePFJet80
 
-HLT_SingleJet30_Mu12_SinglePFJet40_v9:
+HLT_SingleJet30_Mu12_SinglePFJet40_v11:
  l1seeds:
- - L1_Mu3_Jet16er2p7_dEta_Max0p4_dPhi_Max0p4
+ - L1_Mu3_Jet16er2p5_dR_Max0p4
  trigger_objects:
  - hltL1sMu3JetC16dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet16L1Filtered0
@@ -436,87 +365,340 @@ HLT_ZeroBias_v6:
  trigger_objects:
  - hltL1sZeroBias
 
-# Menu version: /dev/CMSSW_10_1_0/GRun/V33
+# Menu version: /frozen/2018/2e34/v3.3/HLT/V1
 
-HLT_DiPFJetAve140_v12:
+HLT_DoublePFJets100_CaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_DoubleJet100er2p5
+ trigger_objects:
+ - hltL1DoubleJet100er3p0
+ - hltDoubleCaloBJets100eta2p3
+ - hltBTagCaloDeepCSV0p71Single6Jets80
+ - hltDoublePFJets100Eta2p3
+
+HLT_DoublePFJets116MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltBTagCaloDeepCSV0p71Double6Jets80
+ - hltDoublePFJets116Eta2p3
+ - hltDoublePFJets116Eta2p3MaxDeta1p6
+
+HLT_DoublePFJets128MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltBTagCaloDeepCSV0p71Double6Jets80
+ - hltDoublePFJets128Eta2p3
+ - hltDoublePFJets128Eta2p3MaxDeta1p6
+
+HLT_DoublePFJets200_CaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_DoubleJet120er2p5
+ trigger_objects:
+ - hltL1DoubleJet120er3p0
+ - hltDoubleCaloBJets100eta2p3
+ - hltBTagCaloDeepCSV0p71Single6Jets80
+ - hltDoublePFJets200Eta2p3
+
+HLT_DoublePFJets350_CaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_DoubleJet120er2p5
+ trigger_objects:
+ - hltL1DoubleJet120er3p0
+ - hltDoubleCaloBJets100eta2p3
+ - hltBTagCaloDeepCSV0p71Single6Jets80
+ - hltDoublePFJets350Eta2p3
+
+HLT_DoublePFJets40_CaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_DoubleJet40er2p5
+ trigger_objects:
+ - hltL1DoubleJet40er3p0
+ - hltDoubleCaloBJets30eta2p3
+ - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltDoublePFJets40Eta2p3
+
+HLT_Mu12_DoublePFJets100_CaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_Mu3_Jet60er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC60dEtaMax0p4dPhiMax0p4
+ - hltL1fL1sMu3Jet60L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltL3fL1sMu3Jet60L1f0L2f8L3Filtered12
+ - hltDoublePFBJets100Eta2p3
+ - hltBSoftMuonDiJet100Mu12L3FilterByDR
+
+HLT_Mu12_DoublePFJets200_CaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dEtaMax0p4dPhiMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltL3fL1sMu3Jet120L1f0L2f8L3Filtered12
+ - hltDoublePFBJets200Eta2p3
+ - hltBSoftMuonDiJet200Mu12L3FilterByDR
+
+HLT_Mu12_DoublePFJets350_CaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dEtaMax0p4dPhiMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltL3fL1sMu3Jet120L1f0L2f8L3Filtered12
+ - hltDoublePFBJets350Eta2p3
+ - hltBSoftMuonDiJet350Mu12L3FilterByDR
+
+HLT_Mu12_DoublePFJets40MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltBTagCaloDeepCSV0p71Double8Jets30
+ - hltL3fL1sMu12Dijet40L1f0L2f8L3Filtered12
+ - hltDoublePFBJets40Eta2p3
+ - hltDoublePFJets40Eta2p3MaxDeta1p6
+ - hltBSoftMuonDiJet40Mu12L3FilterByDR
+
+HLT_Mu12_DoublePFJets40_CaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_Mu3_Jet16er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC16dEtaMax0p4dPhiMax0p4
+ - hltL1fL1sMu3Jet16L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltL3fL1sMu3Jet16L1f0L2f8L3Filtered12
+ - hltDoublePFBJets40Eta2p3
+ - hltBSoftMuonDiJet40Mu12L3FilterByDR
+
+HLT_Mu12_DoublePFJets54MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltBTagCaloDeepCSV0p71Double8Jets30
+ - hltL3fL1sMu12Dijet40L1f0L2f8L3Filtered12
+ - hltDoublePFBJets54Eta2p3
+ - hltDoublePFJets54Eta2p3MaxDeta1p6
+ - hltBSoftMuonDiJet54Mu12L3FilterByDR
+
+HLT_Mu12_DoublePFJets62MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+ l1seeds:
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltBTagCaloDeepCSV0p71Double8Jets30
+ - hltL3fL1sMu12Dijet40L1f0L2f8L3Filtered12
+ - hltDoublePFBJets62Eta2p3
+ - hltDoublePFJets62Eta2p3MaxDeta1p6
+ - hltBSoftMuonDiJet62Mu12L3FilterByDR
+
+HLT_Mu17_v13:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered17
+
+HLT_Mu19_v4:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered19
+
+HLT_Mu20_v12:
+ l1seeds:
+ - L1_SingleMu18
+ trigger_objects:
+ - hltL1sSingleMu18
+ - hltL1fL1sMu18L1Filtered0
+ - hltL3fL1sMu18L1f0L2f10QL3Filtered20Q
+
+HLT_Mu27_v13:
+ l1seeds:
+ - L1_SingleMu22
+ - L1_SingleMu25
+ trigger_objects:
+ - hltL1sSingleMu22or25
+ - hltL1fL1sMu22or25L1Filtered0
+ - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered27Q
+
+HLT_Mu3_PFJet40_v16:
+ l1seeds:
+ - L1_SingleJet35
+ trigger_objects:
+ - hltL1sSingleMu3IorMu3Jet30er2p5
+ - hltL1fL1sMu3Jet30L1Filtered0
+ - hltL1sSingleJet35ObjectMap
+ - hltL3fL1sMu3L1f0L2f0L3Filtered3
+ - hltMu3PFJet40MuCleaned
+
+HLT_Mu50_v13:
+ l1seeds:
+ - L1_SingleMu22
+ - L1_SingleMu25
+ trigger_objects:
+ - hltL1sSingleMu22or25
+ - hltL1fL1sMu22or25L1Filtered0
+ - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered50Q
+
+HLT_Mu55_v3:
+ l1seeds:
+ - L1_SingleMu22
+ - L1_SingleMu25
+ trigger_objects:
+ - hltL1sSingleMu22or25
+ - hltL1fL1sMu22or25L1Filtered0
+ - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered55Q
+
+HLT_Mu8_v12:
+ l1seeds:
+ - L1_SingleMu3
+ - L1_SingleMu5
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu3IorSingleMu5IorSingleMu7
+ - hltL1fL1sMu3or5or7L1Filtered0
+ - hltL3fL1sMu5L1f0L2f5L3Filtered8
+
+HLT_PFJet140_v19:
  l1seeds:
  - L1_SingleJet90
  trigger_objects:
  - hltL1sSingleJet90
- - hltDiCaloJetAve110
- - hltDiPFJetAve140
+ - hltSingleCaloJet110
+ - hltSinglePFJet140
 
-HLT_DiPFJetAve200_v12:
+HLT_PFJet200_v19:
  l1seeds:
  - L1_SingleJet120
  trigger_objects:
  - hltL1sSingleJet120
- - hltDiCaloJetAve170
- - hltDiPFJetAve200
+ - hltSingleCaloJet170
+ - hltSinglePFJet200
 
-HLT_DiPFJetAve260_v13:
+HLT_PFJet260_v20:
  l1seeds:
  - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
  - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve210
- - hltDiPFJetAve260
+ - hltSingleCaloJet210
+ - hltSinglePFJet260
 
-HLT_DiPFJetAve320_v13:
+HLT_PFJet320_v20:
  l1seeds:
  - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
  - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve270
- - hltDiPFJetAve320
+ - hltSingleCaloJet270
+ - hltSinglePFJet320
 
-HLT_DiPFJetAve400_v13:
+HLT_PFJet400_v20:
  l1seeds:
  - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
  - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve350
- - hltDiPFJetAve400
+ - hltSingleCaloJet350
+ - hltSinglePFJet400
 
-HLT_DiPFJetAve40_v13:
+HLT_PFJet40_v21:
  l1seeds:
  - L1_ZeroBias
  trigger_objects:
  - hltL1sZeroBias
- - hltDiCaloJetAve30
- - hltDiPFJetAve40
+ - hltSingleCaloJet10
+ - hltSinglePFJet40
 
-HLT_DiPFJetAve500_v13:
+HLT_PFJet450_v21:
  l1seeds:
  - L1_SingleJet160er2p5
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
  - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve450
- - hltDiPFJetAve500
+ - hltSingleCaloJet400
+ - hltSinglePFJet450
 
-HLT_DiPFJetAve60_v13:
+HLT_PFJet500_v21:
  l1seeds:
- - L1_ZeroBias
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
  trigger_objects:
- - hltL1sZeroBias
- - hltDiCaloJetAve45
- - hltDiPFJetAve60
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet500
 
-HLT_DiPFJetAve80_v12:
+HLT_PFJet550_v11:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet550
+
+HLT_PFJet60_v21:
+ l1seeds:
+ - L1_SingleJet35
+ trigger_objects:
+ - hltL1sSingleJet35
+ - hltSingleCaloJet40
+ - hltSinglePFJet60
+
+HLT_PFJet80_v20:
  l1seeds:
  - L1_SingleJet60
  trigger_objects:
  - hltL1sSingleJet60
- - hltDiCaloJetAve60
- - hltDiPFJetAve80
+ - hltSingleCaloJet50
+ - hltSinglePFJet80
+
+HLT_SingleJet30_Mu12_SinglePFJet40_v11:
+ l1seeds:
+ - L1_Mu3_Jet16er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC16dEtaMax0p4dPhiMax0p4
+ - hltL1fL1sMu3Jet16L1Filtered0
+ - hltSingleCaloBJets30eta2p3
+ - hltL3fL1sMu3Jet16L1f0L2f8L3Filtered12
+ - hltSinglePFBJets40Eta2p3
+ - hltBSoftMuonJet40Mu12L3FilterByDR
+
+HLT_ZeroBias_v6:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+
+# Menu version: /frozen/2018/2e34/v2.0/HLT/V6
 
 HLT_DoublePFJets100_CaloBTagDeepCSV_p71_v1:
  l1seeds:
@@ -849,248 +1031,168 @@ HLT_ZeroBias_v6:
  trigger_objects:
  - hltL1sZeroBias
 
-# Menu version: /dev/CMSSW_10_1_0/GRun/V40
+# Menu version: /frozen/2018/2e34/v1.0/HLT/V1
 
-HLT_DiPFJetAve140_v13:
+HLT_DoublePFJets100_CaloBTagCSV_p79_v1:
  l1seeds:
- - L1_SingleJet90
- trigger_objects:
- - hltL1sSingleJet90
- - hltDiCaloJetAve110
- - hltDiPFJetAve140
-
-HLT_DiPFJetAve200_v13:
- l1seeds:
- - L1_SingleJet120
- trigger_objects:
- - hltL1sSingleJet120
- - hltDiCaloJetAve170
- - hltDiPFJetAve200
-
-HLT_DiPFJetAve260_v14:
- l1seeds:
- - L1_SingleJet160er2p5
- - L1_SingleJet180
- - L1_SingleJet200
- trigger_objects:
- - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve210
- - hltDiPFJetAve260
-
-HLT_DiPFJetAve320_v14:
- l1seeds:
- - L1_SingleJet160er2p5
- - L1_SingleJet180
- - L1_SingleJet200
- trigger_objects:
- - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve270
- - hltDiPFJetAve320
-
-HLT_DiPFJetAve400_v14:
- l1seeds:
- - L1_SingleJet160er2p5
- - L1_SingleJet180
- - L1_SingleJet200
- trigger_objects:
- - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve350
- - hltDiPFJetAve400
-
-HLT_DiPFJetAve40_v14:
- l1seeds:
- - L1_ZeroBias
- trigger_objects:
- - hltL1sZeroBias
- - hltDiCaloJetAve30
- - hltDiPFJetAve40
-
-HLT_DiPFJetAve500_v14:
- l1seeds:
- - L1_SingleJet160er2p5
- - L1_SingleJet180
- - L1_SingleJet200
- trigger_objects:
- - hltL1sSingleJet170IorSingleJet180IorSingleJet200
- - hltDiCaloJetAve450
- - hltDiPFJetAve500
-
-HLT_DiPFJetAve60_v14:
- l1seeds:
- - L1_ZeroBias
- trigger_objects:
- - hltL1sZeroBias
- - hltDiCaloJetAve45
- - hltDiPFJetAve60
-
-HLT_DiPFJetAve80_v13:
- l1seeds:
- - L1_SingleJet60
- trigger_objects:
- - hltL1sSingleJet60
- - hltDiCaloJetAve60
- - hltDiPFJetAve80
-
-HLT_DoublePFJets100_CaloBTagDeepCSV_p71_v2:
- l1seeds:
- - L1_DoubleJet100er2p5
+ - L1_DoubleJet100er2p7
  trigger_objects:
  - hltL1DoubleJet100er3p0
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCaloDeepCSV0p71Single6Jets80
+ - hltBTagCalo80x6CSVp79SingleWithMatching
  - hltDoublePFJets100Eta2p3
 
-HLT_DoublePFJets116MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+HLT_DoublePFJets116MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
  l1seeds:
  - L1_DoubleJet112er2p3_dEta_Max1p6
  trigger_objects:
  - hltL1DoubleJet112er2p3dEtaMax1p6
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCaloDeepCSV0p71Double6Jets80
+ - hltBTagCalo80x6CSVp79DoubleWithMatching
  - hltDoublePFJets116Eta2p3
  - hltDoublePFJets116Eta2p3MaxDeta1p6
 
-HLT_DoublePFJets128MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+HLT_DoublePFJets128MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
  l1seeds:
  - L1_DoubleJet112er2p3_dEta_Max1p6
  trigger_objects:
  - hltL1DoubleJet112er2p3dEtaMax1p6
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCaloDeepCSV0p71Double6Jets80
+ - hltBTagCalo80x6CSVp79DoubleWithMatching
  - hltDoublePFJets128Eta2p3
  - hltDoublePFJets128Eta2p3MaxDeta1p6
 
-HLT_DoublePFJets200_CaloBTagDeepCSV_p71_v2:
+HLT_DoublePFJets200_CaloBTagCSV_p79_v1:
  l1seeds:
- - L1_DoubleJet120er2p5
+ - L1_DoubleJet120er2p7
  trigger_objects:
  - hltL1DoubleJet120er3p0
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCaloDeepCSV0p71Single6Jets80
+ - hltBTagCalo80x6CSVp79SingleWithMatching
  - hltDoublePFJets200Eta2p3
 
-HLT_DoublePFJets350_CaloBTagDeepCSV_p71_v2:
+HLT_DoublePFJets350_CaloBTagCSV_p79_v1:
  l1seeds:
- - L1_DoubleJet120er2p5
+ - L1_DoubleJet120er2p7
  trigger_objects:
  - hltL1DoubleJet120er3p0
  - hltDoubleCaloBJets100eta2p3
- - hltBTagCaloDeepCSV0p71Single6Jets80
+ - hltBTagCalo80x6CSVp79SingleWithMatching
  - hltDoublePFJets350Eta2p3
 
-HLT_DoublePFJets40_CaloBTagDeepCSV_p71_v2:
+HLT_DoublePFJets40_CaloBTagCSV_p79_v1:
  l1seeds:
- - L1_DoubleJet40er2p5
+ - L1_DoubleJet40er2p7
  trigger_objects:
  - hltL1DoubleJet40er3p0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltBTagCalo30x8CSVp79SingleWithMatching
  - hltDoublePFJets40Eta2p3
 
-HLT_Mu12_DoublePFJets100_CaloBTagDeepCSV_p71_v2:
+HLT_Mu12_DoublePFJets100_CaloBTagCSV_p79_v1:
  l1seeds:
- - L1_Mu3_Jet60er2p5_dR_Max0p4
+ - L1_Mu3_Jet60er2p7_dEta_Max0p4_dPhi_Max0p4
  trigger_objects:
  - hltL1sMu3JetC60dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet60L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltBTagCalo30x8CSVp79SingleWithMatching
  - hltL3fL1sMu3Jet60L1f0L2f8L3Filtered12
  - hltDoublePFBJets100Eta2p3
  - hltBSoftMuonDiJet100Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets200_CaloBTagDeepCSV_p71_v2:
+HLT_Mu12_DoublePFJets200_CaloBTagCSV_p79_v1:
  l1seeds:
- - L1_Mu3_Jet120er2p5_dR_Max0p4
+ - L1_Mu3_Jet120er2p7_dEta_Max0p4_dPhi_Max0p4
  trigger_objects:
  - hltL1sMu3JetC120dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet120L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltBTagCalo30x8CSVp79SingleWithMatching
  - hltL3fL1sMu3Jet120L1f0L2f8L3Filtered12
  - hltDoublePFBJets200Eta2p3
  - hltBSoftMuonDiJet200Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets350_CaloBTagDeepCSV_p71_v2:
+HLT_Mu12_DoublePFJets350_CaloBTagCSV_p79_v1:
  l1seeds:
- - L1_Mu3_Jet120er2p5_dR_Max0p4
+ - L1_Mu3_Jet120er2p7_dEta_Max0p4_dPhi_Max0p4
  trigger_objects:
  - hltL1sMu3JetC120dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet120L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltBTagCalo30x8CSVp79SingleWithMatching
  - hltL3fL1sMu3Jet120L1f0L2f8L3Filtered12
  - hltDoublePFBJets350Eta2p3
  - hltBSoftMuonDiJet350Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets40MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+HLT_Mu12_DoublePFJets40MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
  l1seeds:
  - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
  trigger_objects:
  - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
  - hltL1fL1sMu12Dijet40L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCaloDeepCSV0p71Double8Jets30
+ - hltBTagCalo30x8CSVp0p87DoubleWithMatching
  - hltL3fL1sMu12Dijet40L1f0L2f8L3Filtered12
  - hltDoublePFBJets40Eta2p3
  - hltDoublePFJets40Eta2p3MaxDeta1p6
  - hltBSoftMuonDiJet40Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets40_CaloBTagDeepCSV_p71_v2:
+HLT_Mu12_DoublePFJets40_CaloBTagCSV_p79_v1:
  l1seeds:
- - L1_Mu3_Jet16er2p5_dR_Max0p4
+ - L1_Mu3_Jet16er2p7_dEta_Max0p4_dPhi_Max0p4
  trigger_objects:
  - hltL1sMu3JetC16dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet16L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCaloDeepCSV0p71Single8Jets30
+ - hltBTagCalo30x8CSVp79SingleWithMatching
  - hltL3fL1sMu3Jet16L1f0L2f8L3Filtered12
  - hltDoublePFBJets40Eta2p3
  - hltBSoftMuonDiJet40Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets54MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+HLT_Mu12_DoublePFJets54MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
  l1seeds:
  - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
  trigger_objects:
  - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
  - hltL1fL1sMu12Dijet40L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCaloDeepCSV0p71Double8Jets30
+ - hltBTagCalo30x8CSVp0p87DoubleWithMatching
  - hltL3fL1sMu12Dijet40L1f0L2f8L3Filtered12
  - hltDoublePFBJets54Eta2p3
  - hltDoublePFJets54Eta2p3MaxDeta1p6
  - hltBSoftMuonDiJet54Mu12L3FilterByDR
 
-HLT_Mu12_DoublePFJets62MaxDeta1p6_DoubleCaloBTagDeepCSV_p71_v2:
+HLT_Mu12_DoublePFJets62MaxDeta1p6_DoubleCaloBTagCSV_p79_v1:
  l1seeds:
  - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
  trigger_objects:
  - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
  - hltL1fL1sMu12Dijet40L1Filtered0
  - hltDoubleCaloBJets30eta2p3
- - hltBTagCaloDeepCSV0p71Double8Jets30
+ - hltBTagCalo30x8CSVp0p87DoubleWithMatching
  - hltL3fL1sMu12Dijet40L1f0L2f8L3Filtered12
  - hltDoublePFBJets62Eta2p3
  - hltDoublePFJets62Eta2p3MaxDeta1p6
  - hltBSoftMuonDiJet62Mu12L3FilterByDR
 
-HLT_Mu17_v13:
+HLT_Mu17_v11:
  l1seeds:
- - L1_SingleMu15_DQ
+ - L1_SingleMu10_LowQ
  trigger_objects:
- - hltL1sSingleMu15DQ
- - hltL1fL1sMu15DQlqL1Filtered0
- - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered17
+ - hltL1sSingleMu10LowQ
+ - hltL1fL1sMu10lqL1Filtered0
+ - hltL3fL1sMu10lqL1f0L2f10L3Filtered17
 
-HLT_Mu19_v4:
+HLT_Mu19_v2:
  l1seeds:
- - L1_SingleMu15_DQ
+ - L1_SingleMu10_LowQ
  trigger_objects:
- - hltL1sSingleMu15DQ
- - hltL1fL1sMu15DQlqL1Filtered0
- - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered19
+ - hltL1sSingleMu10LowQ
+ - hltL1fL1sMu10lqL1Filtered0
+ - hltL3fL1sMu10lqL1f0L2f10L3Filtered19
 
-HLT_Mu20_v12:
+HLT_Mu20_v11:
  l1seeds:
  - L1_SingleMu18
  trigger_objects:
@@ -1098,7 +1200,7 @@ HLT_Mu20_v12:
  - hltL1fL1sMu18L1Filtered0
  - hltL3fL1sMu18L1f0L2f10QL3Filtered20Q
 
-HLT_Mu27_v13:
+HLT_Mu27_v12:
  l1seeds:
  - L1_SingleMu22
  - L1_SingleMu25
@@ -1107,7 +1209,7 @@ HLT_Mu27_v13:
  - hltL1fL1sMu22or25L1Filtered0
  - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered27Q
 
-HLT_Mu3_PFJet40_v16:
+HLT_Mu3_PFJet40_v14:
  l1seeds:
  - L1_SingleJet35
  trigger_objects:
@@ -1117,7 +1219,7 @@ HLT_Mu3_PFJet40_v16:
  - hltL3fL1sMu3L1f0L2f0L3Filtered3
  - hltMu3PFJet40MuCleaned
 
-HLT_Mu50_v13:
+HLT_Mu50_v12:
  l1seeds:
  - L1_SingleMu22
  - L1_SingleMu25
@@ -1126,7 +1228,7 @@ HLT_Mu50_v13:
  - hltL1fL1sMu22or25L1Filtered0
  - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered50Q
 
-HLT_Mu55_v3:
+HLT_Mu55_v2:
  l1seeds:
  - L1_SingleMu22
  - L1_SingleMu25
@@ -1135,7 +1237,7 @@ HLT_Mu55_v3:
  - hltL1fL1sMu22or25L1Filtered0
  - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered55Q
 
-HLT_Mu8_v12:
+HLT_Mu8_v11:
  l1seeds:
  - L1_SingleMu3
  - L1_SingleMu5
@@ -1145,7 +1247,7 @@ HLT_Mu8_v12:
  - hltL1fL1sMu3or5or7L1Filtered0
  - hltL3fL1sMu5L1f0L2f5L3Filtered8
 
-HLT_PFJet140_v19:
+HLT_PFJet140_v17:
  l1seeds:
  - L1_SingleJet90
  trigger_objects:
@@ -1153,7 +1255,7 @@ HLT_PFJet140_v19:
  - hltSingleCaloJet110
  - hltSinglePFJet140
 
-HLT_PFJet200_v19:
+HLT_PFJet200_v17:
  l1seeds:
  - L1_SingleJet120
  trigger_objects:
@@ -1161,9 +1263,9 @@ HLT_PFJet200_v19:
  - hltSingleCaloJet170
  - hltSinglePFJet200
 
-HLT_PFJet260_v20:
+HLT_PFJet260_v18:
  l1seeds:
- - L1_SingleJet160er2p5
+ - L1_SingleJet170
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -1171,9 +1273,9 @@ HLT_PFJet260_v20:
  - hltSingleCaloJet210
  - hltSinglePFJet260
 
-HLT_PFJet320_v20:
+HLT_PFJet320_v18:
  l1seeds:
- - L1_SingleJet160er2p5
+ - L1_SingleJet170
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -1181,9 +1283,9 @@ HLT_PFJet320_v20:
  - hltSingleCaloJet270
  - hltSinglePFJet320
 
-HLT_PFJet400_v20:
+HLT_PFJet400_v18:
  l1seeds:
- - L1_SingleJet160er2p5
+ - L1_SingleJet170
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -1191,7 +1293,7 @@ HLT_PFJet400_v20:
  - hltSingleCaloJet350
  - hltSinglePFJet400
 
-HLT_PFJet40_v21:
+HLT_PFJet40_v19:
  l1seeds:
  - L1_ZeroBias
  trigger_objects:
@@ -1199,9 +1301,9 @@ HLT_PFJet40_v21:
  - hltSingleCaloJet10
  - hltSinglePFJet40
 
-HLT_PFJet450_v21:
+HLT_PFJet450_v19:
  l1seeds:
- - L1_SingleJet160er2p5
+ - L1_SingleJet170
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -1209,9 +1311,9 @@ HLT_PFJet450_v21:
  - hltSingleCaloJet400
  - hltSinglePFJet450
 
-HLT_PFJet500_v21:
+HLT_PFJet500_v19:
  l1seeds:
- - L1_SingleJet160er2p5
+ - L1_SingleJet170
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -1219,9 +1321,9 @@ HLT_PFJet500_v21:
  - hltSingleCaloJet450
  - hltSinglePFJet500
 
-HLT_PFJet550_v11:
+HLT_PFJet550_v9:
  l1seeds:
- - L1_SingleJet160er2p5
+ - L1_SingleJet170
  - L1_SingleJet180
  - L1_SingleJet200
  trigger_objects:
@@ -1229,7 +1331,7 @@ HLT_PFJet550_v11:
  - hltSingleCaloJet450
  - hltSinglePFJet550
 
-HLT_PFJet60_v21:
+HLT_PFJet60_v19:
  l1seeds:
  - L1_SingleJet35
  trigger_objects:
@@ -1237,7 +1339,7 @@ HLT_PFJet60_v21:
  - hltSingleCaloJet40
  - hltSinglePFJet60
 
-HLT_PFJet80_v20:
+HLT_PFJet80_v18:
  l1seeds:
  - L1_SingleJet60
  trigger_objects:
@@ -1245,9 +1347,9 @@ HLT_PFJet80_v20:
  - hltSingleCaloJet50
  - hltSinglePFJet80
 
-HLT_SingleJet30_Mu12_SinglePFJet40_v11:
+HLT_SingleJet30_Mu12_SinglePFJet40_v9:
  l1seeds:
- - L1_Mu3_Jet16er2p5_dR_Max0p4
+ - L1_Mu3_Jet16er2p7_dEta_Max0p4_dPhi_Max0p4
  trigger_objects:
  - hltL1sMu3JetC16dEtaMax0p4dPhiMax0p4
  - hltL1fL1sMu3Jet16L1Filtered0
