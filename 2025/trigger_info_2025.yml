@@ -1,0 +1,1812 @@
+#==================================================================
+# Trigger information for ntuple production
+#==================================================================
+# Trigger info extracted from the following HLT menu versions
+# Menu version: /cdaq/physics/Run2025/2e34/v1.0.1/HLT/V2
+# Menu version: /cdaq/physics/Run2025/2e34/v1.0.2/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.0.2/HLT/V2
+# Menu version: /cdaq/physics/Run2025/2e34/v1.0.2/HLT/V3
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.1/HLT/V4
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.1/HLT/V6
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.2/HLT/V3
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.2/HLT/V4
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.2/HLT/V5
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.2/HLT/V6
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.3/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.3/HLT/V2
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.3/HLT/V3
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.4/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.5/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.5/HLT/V2
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.5/HLT/V3
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.5/HLT/V4
+# Menu version: /cdaq/physics/Run2025/2e34/v1.1.6/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.2.0/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.2.0/HLT/V2
+# Menu version: /cdaq/physics/Run2025/2e34/v1.2.1/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.2.1/HLT/V2
+# Menu version: /cdaq/physics/Run2025/2e34/v1.2.1/HLT/V3
+# Menu version: /cdaq/physics/Run2025/2e34/v1.2.1/HLT/V4
+# Menu version: /cdaq/physics/Run2025/2e34/v1.2.1/HLT/V6
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.0/HLT/V3
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.1/HLT/V2
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.2/HLT/V3
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.2/HLT/V4
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.2/HLT/V5
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.3/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.3/HLT/V5
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.4/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.5/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.5/HLT/V2
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.5/HLT/V3
+# Menu version: /cdaq/physics/Run2025/2e34/v1.3.5/HLT/V5
+# Menu version: /cdaq/physics/Run2025/2e34/v1.4.0/HLT/V1
+# Menu version: /cdaq/physics/Run2025/2e34/v1.4.1/HLT/V1
+#------------------------------------------------------------------
+
+HLT_DoublePFJets116MaxDeta1p6_PNet2BTag_0p11_v7:
+ l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltDoublePFBJets116Eta2p3
+ - hltDoublePFBJets116Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+
+HLT_DoublePFJets128MaxDeta1p6_PNet2BTag_0p11_v7:
+ l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltDoublePFBJets128Eta2p3
+ - hltDoublePFBJets128Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+
+HLT_DoublePFJets40_PNetBTag_0p11_v7:
+ l1seeds:
+ - L1_DoubleJet40er2p5
+ trigger_objects:
+ - hltL1DoubleJet40er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets100_PNetBTag_0p11_v7:
+ l1seeds:
+ - L1_DoubleJet100er2p5
+ trigger_objects:
+ - hltL1DoubleJet100er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets100Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets200_PNetBTag_0p11_v7:
+ l1seeds:
+ - L1_DoubleJet120er2p5
+ trigger_objects:
+ - hltL1DoubleJet120er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets200Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets350_PNetBTag_0p11_v7:
+ l1seeds:
+ - L1_DoubleJet150er2p5
+ trigger_objects:
+ - hltL1DoubleJet150er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets350Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_Mu12_DoublePFJets40MaxDeta1p6_PNet2BTag_0p11_v7:
+ l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40Deta1p6L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltDoublePFBJets40Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+ - hltL3fL1sMu12Dijet40Deta1p6L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets54MaxDeta1p6_PNet2BTag_0p11_v7:
+ l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40Deta1p6L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets54Eta2p3
+ - hltDoublePFBJets54Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+ - hltL3fL1sMu12Dijet40Deta1p6L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets40_PNetBTag_0p11_v7:
+ l1seeds:
+ - L1_Mu3_Jet16er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC16dRMax0p4
+ - hltL1fL1sMu3Jet16L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet16L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets100_PNetBTag_0p11_v7:
+ l1seeds:
+ - L1_Mu3_Jet60er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC60dRMax0p4
+ - hltL1fL1sMu3Jet60L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets100Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet60L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets200_PNetBTag_0p11_v7:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dRMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets200Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet120L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets350_PNetBTag_0p11_v7:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dRMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets350Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet120L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12eta2p3_v14:
+ l1seeds:
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu7
+ - hltL1fL1sMu7L1Filtered0
+ - hltL3fL1sMu7L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12eta2p3_PFJet40_v14:
+ l1seeds:
+ - L1_Mu3_Jet30er2p5
+ trigger_objects:
+ - hltL1sMu3Jet30er2p5
+ - hltL1fL1sMu3Jet30er2p5L1Filtered0
+ - hltCaloJet30eta2p3
+ - hltPFJet40Eta2p3
+ - hltL3fL1sMu3Jet30er2p5L1f0L2f0L3Filtered12eta2p3
+
+HLT_PFJet40_v34:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleCaloJet10
+ - hltSinglePFJet40
+
+HLT_PFJet60_v34:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleAK4CaloJet40
+ - hltSinglePFJet60
+
+HLT_PFJet80_v34:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleAK4CaloJet50
+ - hltSinglePFJet80
+
+HLT_PFJet110_v13:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltSingleAK4CaloJet80
+ - hltSinglePFJet110
+
+HLT_PFJet140_v32:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltSingleCaloJet110
+ - hltSinglePFJet140
+
+HLT_PFJet200_v32:
+ l1seeds:
+ - L1_SingleJet120
+ trigger_objects:
+ - hltL1sSingleJet120
+ - hltSingleCaloJet170
+ - hltSinglePFJet200
+
+HLT_PFJet260_v33:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet210
+ - hltSinglePFJet260
+
+HLT_PFJet320_v33:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet270
+ - hltSinglePFJet320
+
+HLT_PFJet400_v33:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet350
+ - hltSinglePFJet400
+
+HLT_PFJet450_v34:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet400
+ - hltSinglePFJet450
+
+HLT_PFJet500_v34:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet500
+
+HLT_PFJet550_v24:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet550
+
+HLT_DiPFJetAve40_v27:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve30
+ - hltDiPFJetAve40
+
+HLT_DiPFJetAve60_v27:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve45
+ - hltDiPFJetAve60
+
+HLT_DiPFJetAve80_v27:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve60
+ - hltDiPFJetAve80
+
+HLT_DiPFJetAve140_v26:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltDiCaloJetAve110
+ - hltDiPFJetAve140
+
+HLT_DiPFJetAve200_v26:
+ l1seeds:
+ - L1_SingleJet120
+ trigger_objects:
+ - hltL1sSingleJet120
+ - hltDiCaloJetAve170
+ - hltDiPFJetAve200
+
+HLT_DiPFJetAve260_v27:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve210
+ - hltDiPFJetAve260
+
+HLT_DiPFJetAve320_v27:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve270
+ - hltDiPFJetAve320
+
+HLT_DiPFJetAve400_v27:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve350
+ - hltDiPFJetAve400
+
+HLT_DiPFJetAve500_v27:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve450
+ - hltDiPFJetAve500
+
+HLT_Mu8_v25:
+ l1seeds:
+ - L1_SingleMu3
+ - L1_SingleMu5
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu3IorSingleMu5IorSingleMu7
+ - hltL1fL1sMu3or5or7L1Filtered0
+ - hltL3fL1sMu5L1f0L2f5L3Filtered8
+
+HLT_Mu15_v16:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu15DQorSingleMu7
+ - hltL1fL1sMu15DQorMu7lqL1Filtered0
+ - hltL3fL1sMu15DQorMu7lqL1f0L2f10L3Filtered15
+
+HLT_Mu17_v26:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered17
+
+HLT_Mu19_v17:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered19
+
+HLT_Mu20_v25:
+ l1seeds:
+ - L1_SingleMu18
+ trigger_objects:
+ - hltL1sSingleMu18
+ - hltL1fL1sMu18L1Filtered0
+ - hltL3fL1sMu18L1f0L2f10QL3Filtered20Q
+
+HLT_Mu27_v26:
+ l1seeds:
+ - L1_SingleMu22
+ - L1_SingleMu25
+ trigger_objects:
+ - hltL1sSingleMu22or25
+ - hltL1fL1sMu22or25L1Filtered0
+ - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered27Q
+
+HLT_BTagMu_AK4DiJet20_Mu5_v26:
+ l1seeds:
+ - L1_DoubleJet16er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet16er2p5Mu3dRMax0p4
+ - hltBDiJet20L1FastJetCentral
+ - hltBSoftMuonDiJet20L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet20L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet40_Mu5_v26:
+ l1seeds:
+ - L1_DoubleJet35er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet35er2p5Mu3dRMax0p4
+ - hltBDiJet40L1FastJetCentral
+ - hltBSoftMuonDiJet40L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet40L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet70_Mu5_v26:
+ l1seeds:
+ - L1_DoubleJet60er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet60er2p5Mu3dRMax0p4
+ - hltBDiJet70L1FastJetCentral
+ - hltBSoftMuonDiJet70L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet70L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet110_Mu5_v26:
+ l1seeds:
+ - L1_DoubleJet80er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet80er2p5Mu3dRMax0p4
+ - hltBDiJet110L1FastJetCentral
+ - hltBSoftMuonDiJet110L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet110L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet170_Mu5_v25:
+ l1seeds:
+ - L1_DoubleJet120er2p5_Mu3_dR_Max0p8
+ trigger_objects:
+ - hltL1sDiJet120er2p5Mu3dRMax0p8
+ - hltBDiJet200L1FastJetCentral
+ - hltBSoftMuonDiJet200L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet200L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4Jet300_Mu5_v25:
+ l1seeds:
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet200
+ - hltBJet300L1FastJetCentral
+ - hltBSoftMuonJet300L1FastJetL25FilterByDR
+ - hltBSoftMuonJet300L1FastJetMu5L3FilterByDR
+
+HLT_ZeroBias_v14:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+
+HLT_DoublePFJets116MaxDeta1p6_PNet2BTag_0p11_v8:
+ l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltDoublePFBJets116Eta2p3
+ - hltDoublePFBJets116Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+
+HLT_DoublePFJets128MaxDeta1p6_PNet2BTag_0p11_v8:
+ l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltDoublePFBJets128Eta2p3
+ - hltDoublePFBJets128Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+
+HLT_DoublePFJets40_PNetBTag_0p11_v8:
+ l1seeds:
+ - L1_DoubleJet40er2p5
+ trigger_objects:
+ - hltL1DoubleJet40er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets100_PNetBTag_0p11_v8:
+ l1seeds:
+ - L1_DoubleJet100er2p5
+ trigger_objects:
+ - hltL1DoubleJet100er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets100Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets200_PNetBTag_0p11_v8:
+ l1seeds:
+ - L1_DoubleJet120er2p5
+ trigger_objects:
+ - hltL1DoubleJet120er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets200Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets350_PNetBTag_0p11_v8:
+ l1seeds:
+ - L1_DoubleJet150er2p5
+ trigger_objects:
+ - hltL1DoubleJet150er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets350Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_Mu12_DoublePFJets40MaxDeta1p6_PNet2BTag_0p11_v8:
+ l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40Deta1p6L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltDoublePFBJets40Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+ - hltL3fL1sMu12Dijet40Deta1p6L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets54MaxDeta1p6_PNet2BTag_0p11_v8:
+ l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40Deta1p6L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets54Eta2p3
+ - hltDoublePFBJets54Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+ - hltL3fL1sMu12Dijet40Deta1p6L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets40_PNetBTag_0p11_v8:
+ l1seeds:
+ - L1_Mu3_Jet16er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC16dRMax0p4
+ - hltL1fL1sMu3Jet16L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet16L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets100_PNetBTag_0p11_v8:
+ l1seeds:
+ - L1_Mu3_Jet60er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC60dRMax0p4
+ - hltL1fL1sMu3Jet60L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets100Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet60L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets200_PNetBTag_0p11_v8:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dRMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets200Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet120L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets350_PNetBTag_0p11_v8:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dRMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets350Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet120L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12eta2p3_v15:
+ l1seeds:
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu7
+ - hltL1fL1sMu7L1Filtered0
+ - hltL3fL1sMu7L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12eta2p3_PFJet40_v15:
+ l1seeds:
+ - L1_Mu3_Jet30er2p5
+ trigger_objects:
+ - hltL1sMu3Jet30er2p5
+ - hltL1fL1sMu3Jet30er2p5L1Filtered0
+ - hltCaloJet30eta2p3
+ - hltPFJet40Eta2p3
+ - hltL3fL1sMu3Jet30er2p5L1f0L2f0L3Filtered12eta2p3
+
+HLT_PFJet40_v35:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleCaloJet10
+ - hltSinglePFJet40
+
+HLT_PFJet60_v35:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleAK4CaloJet40
+ - hltSinglePFJet60
+
+HLT_PFJet80_v35:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleAK4CaloJet50
+ - hltSinglePFJet80
+
+HLT_PFJet110_v14:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltSingleAK4CaloJet80
+ - hltSinglePFJet110
+
+HLT_PFJet140_v33:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltSingleCaloJet110
+ - hltSinglePFJet140
+
+HLT_PFJet200_v33:
+ l1seeds:
+ - L1_SingleJet120
+ trigger_objects:
+ - hltL1sSingleJet120
+ - hltSingleCaloJet170
+ - hltSinglePFJet200
+
+HLT_PFJet260_v34:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet210
+ - hltSinglePFJet260
+
+HLT_PFJet320_v34:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet270
+ - hltSinglePFJet320
+
+HLT_PFJet400_v34:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet350
+ - hltSinglePFJet400
+
+HLT_PFJet450_v35:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet400
+ - hltSinglePFJet450
+
+HLT_PFJet500_v35:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet500
+
+HLT_PFJet550_v25:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet550
+
+HLT_DiPFJetAve40_v28:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve30
+ - hltDiPFJetAve40
+
+HLT_DiPFJetAve60_v28:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve45
+ - hltDiPFJetAve60
+
+HLT_DiPFJetAve80_v28:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve60
+ - hltDiPFJetAve80
+
+HLT_DiPFJetAve140_v27:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltDiCaloJetAve110
+ - hltDiPFJetAve140
+
+HLT_DiPFJetAve200_v27:
+ l1seeds:
+ - L1_SingleJet120
+ trigger_objects:
+ - hltL1sSingleJet120
+ - hltDiCaloJetAve170
+ - hltDiPFJetAve200
+
+HLT_DiPFJetAve260_v28:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve210
+ - hltDiPFJetAve260
+
+HLT_DiPFJetAve320_v28:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve270
+ - hltDiPFJetAve320
+
+HLT_DiPFJetAve400_v28:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve350
+ - hltDiPFJetAve400
+
+HLT_DiPFJetAve500_v28:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve450
+ - hltDiPFJetAve500
+
+HLT_Mu8_v26:
+ l1seeds:
+ - L1_SingleMu3
+ - L1_SingleMu5
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu3IorSingleMu5IorSingleMu7
+ - hltL1fL1sMu3or5or7L1Filtered0
+ - hltL3fL1sMu5L1f0L2f5L3Filtered8
+
+HLT_Mu15_v17:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu15DQorSingleMu7
+ - hltL1fL1sMu15DQorMu7lqL1Filtered0
+ - hltL3fL1sMu15DQorMu7lqL1f0L2f10L3Filtered15
+
+HLT_Mu17_v27:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered17
+
+HLT_Mu19_v18:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered19
+
+HLT_Mu20_v26:
+ l1seeds:
+ - L1_SingleMu18
+ trigger_objects:
+ - hltL1sSingleMu18
+ - hltL1fL1sMu18L1Filtered0
+ - hltL3fL1sMu18L1f0L2f10QL3Filtered20Q
+
+HLT_Mu27_v27:
+ l1seeds:
+ - L1_SingleMu22
+ - L1_SingleMu25
+ trigger_objects:
+ - hltL1sSingleMu22or25
+ - hltL1fL1sMu22or25L1Filtered0
+ - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered27Q
+
+HLT_BTagMu_AK4DiJet20_Mu5_v27:
+ l1seeds:
+ - L1_DoubleJet16er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet16er2p5Mu3dRMax0p4
+ - hltBDiJet20L1FastJetCentral
+ - hltBSoftMuonDiJet20L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet20L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet40_Mu5_v27:
+ l1seeds:
+ - L1_DoubleJet35er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet35er2p5Mu3dRMax0p4
+ - hltBDiJet40L1FastJetCentral
+ - hltBSoftMuonDiJet40L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet40L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet70_Mu5_v27:
+ l1seeds:
+ - L1_DoubleJet60er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet60er2p5Mu3dRMax0p4
+ - hltBDiJet70L1FastJetCentral
+ - hltBSoftMuonDiJet70L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet70L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet110_Mu5_v27:
+ l1seeds:
+ - L1_DoubleJet80er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet80er2p5Mu3dRMax0p4
+ - hltBDiJet110L1FastJetCentral
+ - hltBSoftMuonDiJet110L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet110L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet170_Mu5_v26:
+ l1seeds:
+ - L1_DoubleJet120er2p5_Mu3_dR_Max0p8
+ trigger_objects:
+ - hltL1sDiJet120er2p5Mu3dRMax0p8
+ - hltBDiJet200L1FastJetCentral
+ - hltBSoftMuonDiJet200L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet200L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4Jet300_Mu5_v26:
+ l1seeds:
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet200
+ - hltBJet300L1FastJetCentral
+ - hltBSoftMuonJet300L1FastJetL25FilterByDR
+ - hltBSoftMuonJet300L1FastJetMu5L3FilterByDR
+
+HLT_DoublePFJets116MaxDeta1p6_PNet2BTag_0p11_v9:
+ l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltDoublePFBJets116Eta2p3
+ - hltDoublePFBJets116Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+
+HLT_DoublePFJets128MaxDeta1p6_PNet2BTag_0p11_v9:
+ l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltDoublePFBJets128Eta2p3
+ - hltDoublePFBJets128Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+
+HLT_DoublePFJets40_PNetBTag_0p11_v9:
+ l1seeds:
+ - L1_DoubleJet40er2p5
+ trigger_objects:
+ - hltL1DoubleJet40er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets100_PNetBTag_0p11_v9:
+ l1seeds:
+ - L1_DoubleJet100er2p5
+ trigger_objects:
+ - hltL1DoubleJet100er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets100Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets200_PNetBTag_0p11_v9:
+ l1seeds:
+ - L1_DoubleJet120er2p5
+ trigger_objects:
+ - hltL1DoubleJet120er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets200Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets350_PNetBTag_0p11_v9:
+ l1seeds:
+ - L1_DoubleJet150er2p5
+ trigger_objects:
+ - hltL1DoubleJet150er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets350Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_Mu12_DoublePFJets40MaxDeta1p6_PNet2BTag_0p11_v9:
+ l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40Deta1p6L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltDoublePFBJets40Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+ - hltL3fL1sMu12Dijet40Deta1p6L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets54MaxDeta1p6_PNet2BTag_0p11_v9:
+ l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40Deta1p6L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets54Eta2p3
+ - hltDoublePFBJets54Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+ - hltL3fL1sMu12Dijet40Deta1p6L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets40_PNetBTag_0p11_v9:
+ l1seeds:
+ - L1_Mu3_Jet16er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC16dRMax0p4
+ - hltL1fL1sMu3Jet16L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet16L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets100_PNetBTag_0p11_v9:
+ l1seeds:
+ - L1_Mu3_Jet60er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC60dRMax0p4
+ - hltL1fL1sMu3Jet60L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets100Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet60L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets200_PNetBTag_0p11_v9:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dRMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets200Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet120L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets350_PNetBTag_0p11_v9:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dRMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets350Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet120L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12eta2p3_v16:
+ l1seeds:
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu7
+ - hltL1fL1sMu7L1Filtered0
+ - hltL3fL1sMu7L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12eta2p3_PFJet40_v16:
+ l1seeds:
+ - L1_Mu3_Jet30er2p5
+ trigger_objects:
+ - hltL1sMu3Jet30er2p5
+ - hltL1fL1sMu3Jet30er2p5L1Filtered0
+ - hltCaloJet30eta2p3
+ - hltPFJet40Eta2p3
+ - hltL3fL1sMu3Jet30er2p5L1f0L2f0L3Filtered12eta2p3
+
+HLT_PFJet40_v36:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleCaloJet10
+ - hltSinglePFJet40
+
+HLT_PFJet60_v36:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleAK4CaloJet40
+ - hltSinglePFJet60
+
+HLT_PFJet80_v36:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleAK4CaloJet50
+ - hltSinglePFJet80
+
+HLT_PFJet110_v15:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltSingleAK4CaloJet80
+ - hltSinglePFJet110
+
+HLT_PFJet140_v34:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltSingleCaloJet110
+ - hltSinglePFJet140
+
+HLT_PFJet200_v34:
+ l1seeds:
+ - L1_SingleJet120
+ trigger_objects:
+ - hltL1sSingleJet120
+ - hltSingleCaloJet170
+ - hltSinglePFJet200
+
+HLT_PFJet260_v35:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet210
+ - hltSinglePFJet260
+
+HLT_PFJet320_v35:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet270
+ - hltSinglePFJet320
+
+HLT_PFJet400_v35:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet350
+ - hltSinglePFJet400
+
+HLT_PFJet450_v36:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet400
+ - hltSinglePFJet450
+
+HLT_PFJet500_v36:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet500
+
+HLT_PFJet550_v26:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet550
+
+HLT_DiPFJetAve40_v29:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve30
+ - hltDiPFJetAve40
+
+HLT_DiPFJetAve60_v29:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve45
+ - hltDiPFJetAve60
+
+HLT_DiPFJetAve80_v29:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve60
+ - hltDiPFJetAve80
+
+HLT_DiPFJetAve140_v28:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltDiCaloJetAve110
+ - hltDiPFJetAve140
+
+HLT_DiPFJetAve200_v28:
+ l1seeds:
+ - L1_SingleJet120
+ trigger_objects:
+ - hltL1sSingleJet120
+ - hltDiCaloJetAve170
+ - hltDiPFJetAve200
+
+HLT_DiPFJetAve260_v29:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve210
+ - hltDiPFJetAve260
+
+HLT_DiPFJetAve320_v29:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve270
+ - hltDiPFJetAve320
+
+HLT_DiPFJetAve400_v29:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve350
+ - hltDiPFJetAve400
+
+HLT_DiPFJetAve500_v29:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve450
+ - hltDiPFJetAve500
+
+HLT_Mu8_v27:
+ l1seeds:
+ - L1_SingleMu3
+ - L1_SingleMu5
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu3IorSingleMu5IorSingleMu7
+ - hltL1fL1sMu3or5or7L1Filtered0
+ - hltL3fL1sMu5L1f0L2f5L3Filtered8
+
+HLT_Mu15_v18:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu15DQorSingleMu7
+ - hltL1fL1sMu15DQorMu7lqL1Filtered0
+ - hltL3fL1sMu15DQorMu7lqL1f0L2f10L3Filtered15
+
+HLT_Mu17_v28:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered17
+
+HLT_Mu19_v19:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered19
+
+HLT_Mu20_v27:
+ l1seeds:
+ - L1_SingleMu18
+ trigger_objects:
+ - hltL1sSingleMu18
+ - hltL1fL1sMu18L1Filtered0
+ - hltL3fL1sMu18L1f0L2f10QL3Filtered20Q
+
+HLT_Mu27_v28:
+ l1seeds:
+ - L1_SingleMu22
+ - L1_SingleMu25
+ trigger_objects:
+ - hltL1sSingleMu22or25
+ - hltL1fL1sMu22or25L1Filtered0
+ - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered27Q
+
+HLT_BTagMu_AK4DiJet20_Mu5_v28:
+ l1seeds:
+ - L1_DoubleJet16er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet16er2p5Mu3dRMax0p4
+ - hltBDiJet20L1FastJetCentral
+ - hltBSoftMuonDiJet20L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet20L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet40_Mu5_v28:
+ l1seeds:
+ - L1_DoubleJet35er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet35er2p5Mu3dRMax0p4
+ - hltBDiJet40L1FastJetCentral
+ - hltBSoftMuonDiJet40L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet40L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet70_Mu5_v28:
+ l1seeds:
+ - L1_DoubleJet60er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet60er2p5Mu3dRMax0p4
+ - hltBDiJet70L1FastJetCentral
+ - hltBSoftMuonDiJet70L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet70L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet110_Mu5_v28:
+ l1seeds:
+ - L1_DoubleJet80er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet80er2p5Mu3dRMax0p4
+ - hltBDiJet110L1FastJetCentral
+ - hltBSoftMuonDiJet110L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet110L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet170_Mu5_v27:
+ l1seeds:
+ - L1_DoubleJet120er2p5_Mu3_dR_Max0p8
+ trigger_objects:
+ - hltL1sDiJet120er2p5Mu3dRMax0p8
+ - hltBDiJet200L1FastJetCentral
+ - hltBSoftMuonDiJet200L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet200L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4Jet300_Mu5_v27:
+ l1seeds:
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet200
+ - hltBJet300L1FastJetCentral
+ - hltBSoftMuonJet300L1FastJetL25FilterByDR
+ - hltBSoftMuonJet300L1FastJetMu5L3FilterByDR
+
+HLT_DoublePFJets116MaxDeta1p6_PNet2BTag_0p11_v10:
+ l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltDoublePFBJets116Eta2p3
+ - hltDoublePFBJets116Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+
+HLT_DoublePFJets128MaxDeta1p6_PNet2BTag_0p11_v10:
+ l1seeds:
+ - L1_DoubleJet100er2p3_dEta_Max1p6
+ - L1_DoubleJet112er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1DoubleJet112er2p3dEtaMax1p6
+ - hltDoubleCaloBJets100eta2p3
+ - hltDoublePFBJets128Eta2p3
+ - hltDoublePFBJets128Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+
+HLT_DoublePFJets40_PNetBTag_0p11_v10:
+ l1seeds:
+ - L1_DoubleJet40er2p5
+ trigger_objects:
+ - hltL1DoubleJet40er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets100_PNetBTag_0p11_v10:
+ l1seeds:
+ - L1_DoubleJet100er2p5
+ trigger_objects:
+ - hltL1DoubleJet100er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets100Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets200_PNetBTag_0p11_v10:
+ l1seeds:
+ - L1_DoubleJet120er2p5
+ trigger_objects:
+ - hltL1DoubleJet120er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets200Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_DoublePFJets350_PNetBTag_0p11_v10:
+ l1seeds:
+ - L1_DoubleJet150er2p5
+ trigger_objects:
+ - hltL1DoubleJet150er2p5
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets350Eta2p3
+ - hltBTagPFPNet0p11Single
+
+HLT_Mu12_DoublePFJets40MaxDeta1p6_PNet2BTag_0p11_v10:
+ l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40Deta1p6L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltDoublePFBJets40Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+ - hltL3fL1sMu12Dijet40Deta1p6L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets54MaxDeta1p6_PNet2BTag_0p11_v10:
+ l1seeds:
+ - L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6
+ - L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6
+ trigger_objects:
+ - hltL1Mu12er2p3Jet40er2p3dRMax0p4DoubleJet40er2p3dEtaMax1p6
+ - hltL1fL1sMu12Dijet40Deta1p6L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets54Eta2p3
+ - hltDoublePFBJets54Eta2p3MaxDeta1p6
+ - hltBTagPFPNet0p11Double
+ - hltL3fL1sMu12Dijet40Deta1p6L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets40_PNetBTag_0p11_v10:
+ l1seeds:
+ - L1_Mu3_Jet16er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC16dRMax0p4
+ - hltL1fL1sMu3Jet16L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets40Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet16L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets100_PNetBTag_0p11_v10:
+ l1seeds:
+ - L1_Mu3_Jet60er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC60dRMax0p4
+ - hltL1fL1sMu3Jet60L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets100Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet60L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets200_PNetBTag_0p11_v10:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dRMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets200Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet120L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12_DoublePFJets350_PNetBTag_0p11_v10:
+ l1seeds:
+ - L1_Mu3_Jet120er2p5_dR_Max0p4
+ trigger_objects:
+ - hltL1sMu3JetC120dRMax0p4
+ - hltL1fL1sMu3Jet120L1Filtered0
+ - hltDoubleCaloBJets30eta2p3
+ - hltDoublePFBJets350Eta2p3
+ - hltBTagPFPNet0p11Single
+ - hltL3fL1sMu3Jet120L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12eta2p3_v17:
+ l1seeds:
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu7
+ - hltL1fL1sMu7L1Filtered0
+ - hltL3fL1sMu7L1f0L2f0L3Filtered12eta2p3
+
+HLT_Mu12eta2p3_PFJet40_v17:
+ l1seeds:
+ - L1_Mu3_Jet30er2p5
+ trigger_objects:
+ - hltL1sMu3Jet30er2p5
+ - hltL1fL1sMu3Jet30er2p5L1Filtered0
+ - hltCaloJet30eta2p3
+ - hltPFJet40Eta2p3
+ - hltL3fL1sMu3Jet30er2p5L1f0L2f0L3Filtered12eta2p3
+
+HLT_PFJet40_v37:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleCaloJet10
+ - hltSinglePFJet40
+
+HLT_PFJet60_v37:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleAK4CaloJet40
+ - hltSinglePFJet60
+
+HLT_PFJet80_v37:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltSingleAK4CaloJet50
+ - hltSinglePFJet80
+
+HLT_PFJet110_v16:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltSingleAK4CaloJet80
+ - hltSinglePFJet110
+
+HLT_PFJet140_v35:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltSingleCaloJet110
+ - hltSinglePFJet140
+
+HLT_PFJet200_v35:
+ l1seeds:
+ - L1_SingleJet120
+ trigger_objects:
+ - hltL1sSingleJet120
+ - hltSingleCaloJet170
+ - hltSinglePFJet200
+
+HLT_PFJet260_v36:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet210
+ - hltSinglePFJet260
+
+HLT_PFJet320_v36:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet270
+ - hltSinglePFJet320
+
+HLT_PFJet400_v36:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet350
+ - hltSinglePFJet400
+
+HLT_PFJet450_v37:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet400
+ - hltSinglePFJet450
+
+HLT_PFJet500_v37:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet500
+
+HLT_PFJet550_v27:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltSingleCaloJet450
+ - hltSinglePFJet550
+
+HLT_DiPFJetAve40_v30:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve30
+ - hltDiPFJetAve40
+
+HLT_DiPFJetAve60_v30:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve45
+ - hltDiPFJetAve60
+
+HLT_DiPFJetAve80_v30:
+ l1seeds:
+ - L1_ZeroBias
+ trigger_objects:
+ - hltL1sZeroBias
+ - hltDiCaloJetAve60
+ - hltDiPFJetAve80
+
+HLT_DiPFJetAve140_v29:
+ l1seeds:
+ - L1_SingleJet90
+ trigger_objects:
+ - hltL1sSingleJet90
+ - hltDiCaloJetAve110
+ - hltDiPFJetAve140
+
+HLT_DiPFJetAve200_v29:
+ l1seeds:
+ - L1_SingleJet120
+ trigger_objects:
+ - hltL1sSingleJet120
+ - hltDiCaloJetAve170
+ - hltDiPFJetAve200
+
+HLT_DiPFJetAve260_v30:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve210
+ - hltDiPFJetAve260
+
+HLT_DiPFJetAve320_v30:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve270
+ - hltDiPFJetAve320
+
+HLT_DiPFJetAve400_v30:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve350
+ - hltDiPFJetAve400
+
+HLT_DiPFJetAve500_v30:
+ l1seeds:
+ - L1_SingleJet160er2p5
+ - L1_SingleJet180
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet170IorSingleJet180IorSingleJet200
+ - hltDiCaloJetAve450
+ - hltDiPFJetAve500
+
+HLT_Mu8_v28:
+ l1seeds:
+ - L1_SingleMu3
+ - L1_SingleMu5
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu3IorSingleMu5IorSingleMu7
+ - hltL1fL1sMu3or5or7L1Filtered0
+ - hltL3fL1sMu5L1f0L2f5L3Filtered8
+
+HLT_Mu15_v19:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ - L1_SingleMu7
+ trigger_objects:
+ - hltL1sSingleMu15DQorSingleMu7
+ - hltL1fL1sMu15DQorMu7lqL1Filtered0
+ - hltL3fL1sMu15DQorMu7lqL1f0L2f10L3Filtered15
+
+HLT_Mu17_v29:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered17
+
+HLT_Mu19_v20:
+ l1seeds:
+ - L1_SingleMu15_DQ
+ trigger_objects:
+ - hltL1sSingleMu15DQ
+ - hltL1fL1sMu15DQlqL1Filtered0
+ - hltL3fL1sMu15DQlqL1f0L2f10L3Filtered19
+
+HLT_Mu20_v28:
+ l1seeds:
+ - L1_SingleMu18
+ trigger_objects:
+ - hltL1sSingleMu18
+ - hltL1fL1sMu18L1Filtered0
+ - hltL3fL1sMu18L1f0L2f10QL3Filtered20Q
+
+HLT_Mu27_v29:
+ l1seeds:
+ - L1_SingleMu22
+ - L1_SingleMu25
+ trigger_objects:
+ - hltL1sSingleMu22or25
+ - hltL1fL1sMu22or25L1Filtered0
+ - hltL3fL1sMu22Or25L1f0L2f10QL3Filtered27Q
+
+HLT_BTagMu_AK4DiJet20_Mu5_v29:
+ l1seeds:
+ - L1_DoubleJet16er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet16er2p5Mu3dRMax0p4
+ - hltBDiJet20L1FastJetCentral
+ - hltBSoftMuonDiJet20L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet20L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet40_Mu5_v29:
+ l1seeds:
+ - L1_DoubleJet35er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet35er2p5Mu3dRMax0p4
+ - hltBDiJet40L1FastJetCentral
+ - hltBSoftMuonDiJet40L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet40L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet70_Mu5_v29:
+ l1seeds:
+ - L1_DoubleJet60er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet60er2p5Mu3dRMax0p4
+ - hltBDiJet70L1FastJetCentral
+ - hltBSoftMuonDiJet70L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet70L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet110_Mu5_v29:
+ l1seeds:
+ - L1_DoubleJet80er2p5_Mu3_dR_Max0p4
+ trigger_objects:
+ - hltL1sDiJet80er2p5Mu3dRMax0p4
+ - hltBDiJet110L1FastJetCentral
+ - hltBSoftMuonDiJet110L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet110L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4DiJet170_Mu5_v28:
+ l1seeds:
+ - L1_DoubleJet120er2p5_Mu3_dR_Max0p8
+ trigger_objects:
+ - hltL1sDiJet120er2p5Mu3dRMax0p8
+ - hltBDiJet200L1FastJetCentral
+ - hltBSoftMuonDiJet200L1FastJetL25FilterByDR
+ - hltBSoftMuonDiJet200L1FastJetMu5L3FilterByDR
+
+HLT_BTagMu_AK4Jet300_Mu5_v28:
+ l1seeds:
+ - L1_SingleJet200
+ trigger_objects:
+ - hltL1sSingleJet200
+ - hltBJet300L1FastJetCentral
+ - hltBSoftMuonJet300L1FastJetL25FilterByDR
+ - hltBSoftMuonJet300L1FastJetMu5L3FilterByDR
+
