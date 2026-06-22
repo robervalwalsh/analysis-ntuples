@@ -1,0 +1,46 @@
+# -------------------------
+
+JetMET0_Prompt_2026:
+  /JetMET0/Run2026B-PromptReco-v1/MINIAOD
+  /JetMET0/Run2026D-PromptReco-v1/MINIAOD
+
+# -------------------------
+
+JetMET1_Prompt_2026:
+  /JetMET0/Run2026B-PromptReco-v1/MINIAOD
+  /JetMET0/Run2026D-PromptReco-v1/MINIAOD
+
+# -------------------------
+
+Muon0_Prompt_2026:
+  /Muon0/Run2026B-PromptReco-v1/MINIAOD
+  /Muon0/Run2026D-PromptReco-v1/MINIAOD
+
+# -------------------------
+
+Muon1_Prompt_2026:
+  /Muon1/Run2026B-PromptReco-v1/MINIAOD
+  /Muon1/Run2026D-PromptReco-v1/MINIAOD
+
+# -------------------------
+Muon2_Prompt_2026:
+  /Muon2/Run2026B-PromptReco-v1/MINIAOD
+  /Muon2/Run2026D-PromptReco-v1/MINIAOD
+
+# -------------------------
+Muon3_Prompt_2026:
+  /Muon3/Run2026B-PromptReco-v1/MINIAOD
+  /Muon3/Run2026D-PromptReco-v1/MINIAOD
+
+# -------------------------
+
+
+# BTagMu_Prompt_2026:
+#   /BTagMu/Run2026B-PromptReco-v1/MINIAOD
+#   /BTagMu/Run2026D-PromptReco-v1/MINIAOD
+
+# # -------------------------
+
+# ZeroBias_Prompt_2026:
+#   /ZeroBias/Run2026B-PromptReco-v1/MINIAOD
+#   /ZeroBias/Run2026D-PromptReco-v1/MINIAOD
