@@ -1,3 +1,0 @@
-hltGetConfiguration /frozen/2023/2e34/v1.0/HLT/V1  &> $CMSSW_BASE/src/Analysis/Ntuplizer/python/frozen_2023_2e34_v1p0_HLT_V1.py
-hltGetConfiguration /frozen/2023/2e34/v1.1/HLT/V1  &> $CMSSW_BASE/src/Analysis/Ntuplizer/python/frozen_2023_2e34_v1p1_HLT_V1.py
-hltGetConfiguration /frozen/2023/2e34/v1.2/HLT/V1  &> $CMSSW_BASE/src/Analysis/Ntuplizer/python/frozen_2023_2e34_v1p2_HLT_V1.py
