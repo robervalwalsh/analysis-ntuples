@@ -1,0 +1,71 @@
+# -------------------------
+
+JetMET0_Prompt_2025:
+  /JetMET0/Run2025B-PromptReco-v1/MINIAOD
+  /JetMET0/Run2025C-PromptReco-v1/MINIAOD
+  /JetMET0/Run2025C-PromptReco-v2/MINIAOD
+  /JetMET0/Run2025D-PromptReco-v1/MINIAOD
+  /JetMET0/Run2025E-PromptReco-v1/MINIAOD
+  /JetMET0/Run2025F-PromptReco-v1/MINIAOD
+  /JetMET0/Run2025F-PromptReco-v2/MINIAOD
+  /JetMET0/Run2025G-PromptReco-v1/MINIAOD
+
+# -------------------------
+
+JetMET1_Prompt_2025:
+  /JetMET1/Run2025B-PromptReco-v1/MINIAOD
+  /JetMET1/Run2025C-PromptReco-v1/MINIAOD
+  /JetMET1/Run2025C-PromptReco-v2/MINIAOD
+  /JetMET1/Run2025D-PromptReco-v1/MINIAOD
+  /JetMET1/Run2025E-PromptReco-v1/MINIAOD
+  /JetMET1/Run2025F-PromptReco-v1/MINIAOD
+  /JetMET1/Run2025F-PromptReco-v2/MINIAOD
+  /JetMET1/Run2025G-PromptReco-v1/MINIAOD
+
+# -------------------------
+
+Muon0_Prompt_2025:
+  /Muon0/Run2025B-PromptReco-v1/MINIAOD
+  /Muon0/Run2025C-PromptReco-v1/MINIAOD
+  /Muon0/Run2025C-PromptReco-v2/MINIAOD
+  /Muon0/Run2025D-PromptReco-v1/MINIAOD
+  /Muon0/Run2025E-PromptReco-v1/MINIAOD
+  /Muon0/Run2025F-PromptReco-v1/MINIAOD
+  /Muon0/Run2025F-PromptReco-v2/MINIAOD
+  /Muon0/Run2025G-PromptReco-v1/MINIAOD
+
+# -------------------------
+
+Muon1_Prompt_2025:
+  /Muon1/Run2025B-PromptReco-v1/MINIAOD
+  /Muon1/Run2025C-PromptReco-v1/MINIAOD
+  /Muon1/Run2025C-PromptReco-v2/MINIAOD
+  /Muon1/Run2025D-PromptReco-v1/MINIAOD
+  /Muon1/Run2025E-PromptReco-v1/MINIAOD
+  /Muon1/Run2025F-PromptReco-v1/MINIAOD
+  /Muon1/Run2025F-PromptReco-v2/MINIAOD
+  /Muon1/Run2025G-PromptReco-v1/MINIAOD
+
+# -------------------------
+
+# BTagMu_Prompt_2025:
+#   /BTagMu/Run2025B-PromptReco-v1/MINIAOD
+#   /BTagMu/Run2025C-PromptReco-v1/MINIAOD
+#   /BTagMu/Run2025C-PromptReco-v2/MINIAOD
+#   /BTagMu/Run2025D-PromptReco-v1/MINIAOD
+#   /BTagMu/Run2025E-PromptReco-v1/MINIAOD
+#   /BTagMu/Run2025F-PromptReco-v1/MINIAOD
+#   /BTagMu/Run2025F-PromptReco-v2/MINIAOD
+#   /BTagMu/Run2025G-PromptReco-v1/MINIAOD
+
+# # -------------------------
+
+# ZeroBias_Prompt_2025:
+#   /ZeroBias/Run2025B-PromptReco-v1/MINIAOD
+#   /ZeroBias/Run2025C-PromptReco-v1/MINIAOD
+#   /ZeroBias/Run2025C-PromptReco-v2/MINIAOD
+#   /ZeroBias/Run2025D-PromptReco-v1/MINIAOD
+#   /ZeroBias/Run2025E-PromptReco-v1/MINIAOD
+#   /ZeroBias/Run2025F-PromptReco-v1/MINIAOD
+#   /ZeroBias/Run2025F-PromptReco-v2/MINIAOD
+#   /ZeroBias/Run2025G-PromptReco-v1/MINIAOD
