@@ -1,0 +1,50 @@
+# -------------------------
+
+JetHT_22Sep2023_2022:
+  /JetHT/Run2022C-22Sep2023-v1/MINIAOD
+
+# -------------------------
+
+SingleMuon_22Sep2023_2022:
+  /SingleMuon/Run2022C-22Sep2023-v1/MINIAOD
+
+# -------------------------
+
+DoubleMuon_22Sep2023_2022:
+  /DoubleMuon/Run2022C-22Sep2023-v1/MINIAOD
+
+# -------------------------
+
+JetMET_22Sep2023_2022:
+  /JetMET/Run2022C-22Sep2023-v1/MINIAOD
+  /JetMET/Run2022D-22Sep2023-v1/MINIAOD
+  /JetMET/Run2022E-22Sep2023-v1/MINIAOD
+  /JetMET/Run2022F-22Sep2023-v2/MINIAOD
+  /JetMET/Run2022G-22Sep2023-v2/MINIAOD
+  
+# -------------------------
+
+Muon_22Sep2023_2022:
+  /Muon/Run2022C-22Sep2023-v1/MINIAOD
+  /Muon/Run2022D-22Sep2023-v1/MINIAOD
+  /Muon/Run2022E-22Sep2023-v1/MINIAOD
+  /Muon/Run2022F-22Sep2023-v2/MINIAOD
+  /Muon/Run2022G-22Sep2023-v1/MINIAOD
+
+# -------------------------
+
+# BTagMu_22Sep2023_2022:
+#   /BTagMu/Run2022C-22Sep2023-v1/MINIAOD
+#   /BTagMu/Run2022D-22Sep2023-v1/MINIAOD
+#   /BTagMu/Run2022E-22Sep2023-v1/MINIAOD
+#   /BTagMu/Run2022F-22Sep2023-v2/MINIAOD
+#   /BTagMu/Run2022G-22Sep2023-v1/MINIAOD
+
+# # -------------------------
+
+# ZeroBias_22Sep2023_2022:
+#   /ZeroBias/Run2022C-22Sep2023-v1/MINIAOD
+#   /ZeroBias/Run2022D-22Sep2023-v1/MINIAOD
+#   /ZeroBias/Run2022E-22Sep2023-v1/MINIAOD
+#   /ZeroBias/Run2022F-22Sep2023-v1/MINIAOD
+#   /ZeroBias/Run2022G-22Sep2023-v1/MINIAOD
